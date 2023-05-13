@@ -3,3 +3,7 @@
 Virtual Environments https://www.youtube.com/watch?v=0f3moPe_bhk
 
 String Formatting tutorial https://www.youtube.com/watch?v=ktOOKv6XJ7U
+
+## Pandas
+
+Introduction to Pandas Data Analysis https://www.youtube.com/watch?v=_Eb0utIRdkw
