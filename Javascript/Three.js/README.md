@@ -8,4 +8,4 @@ UI component for Globe Data Visualization https://globe.gl/
 
 Bruno Simon portfolio https://bruno-simon.com/
 
-3D Hands Game https://rdtr01.xl.digital/
+3D Hands Motion Capture https://rdtr01.xl.digital/
