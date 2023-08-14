@@ -1,13 +1,13 @@
 # Useful links for programmers
 
-A collection of useful ressources for software developers
+A collection of useful resources for software developers
 
 
 ## Misc
 
-Free ressources for developers https://free-for.dev/#/
+Free resources for developers https://free-for.dev/#/
 
-
+Online development environment https://codesandbox.io/
 
 
 ## Remember
