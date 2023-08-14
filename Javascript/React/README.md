@@ -8,6 +8,7 @@ Storybook https://www.youtube.com/watch?v=gdlTFPebzAU
 
 Build And Publish A React Component Library https://www.youtube.com/watch?v=hf6Z8OZanec
 
+React library to build dashboards https://www.tremor.so/
 
 ## React alternative uses
 
@@ -16,3 +17,6 @@ React email https://react.email/
 React CMD (blessed) https://github.com/Yomguithereal/react-blessed
 
 React Game Engine https://github.com/bberak/react-game-engine
+
+React PDF https://react-pdf.org/
+
