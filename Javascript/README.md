@@ -5,6 +5,10 @@
 
 Zod: schema declaration and validation library https://zod.dev/
 
+Async: powerful functions for working with asynchronous JavaScript https://caolan.github.io/async/v3/
+
+Nano ID: unique string ID generator for JavaScript https://www.npmjs.com/package/nanoid
+
 
 ## Js Evolution
 
