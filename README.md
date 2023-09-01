@@ -2,6 +2,8 @@
 
 A collection of useful resources for software developers
 
+I used to have too many opened tabs in my browser, now I'm sharing my links with the community
+
 
 ## Misc
 
