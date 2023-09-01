@@ -1,6 +1,6 @@
 # Useful links for programmers
 
-A collection of useful resources for software developers
+A collection of valuable resources for programmers
 
 I used to have too many opened tabs in my browser, now I'm sharing my links with the community
 
@@ -10,6 +10,13 @@ I used to have too many opened tabs in my browser, now I'm sharing my links with
 Free resources for developers https://free-for.dev/#/
 
 Online development environment https://codesandbox.io/
+
+Color Palettes https://colorhunt.co/
+
+HTML Templates https://htmlrev.com/
+
+
+
 
 
 ## Remember
