@@ -10,6 +10,13 @@ Async: powerful functions for working with asynchronous JavaScript https://caola
 Nano ID: unique string ID generator for JavaScript https://www.npmjs.com/package/nanoid
 
 
+## Rate Limit
+
+Upstash Ratelimit https://www.npmjs.com/package/@upstash/ratelimit
+
+Rate Limiter Flexible https://www.npmjs.com/package/rate-limiter-flexible
+
+
 ## Js Evolution
 
 Javascript ES6 https://www.w3schools.com/js/js_es6.asp
