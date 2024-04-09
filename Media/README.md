@@ -1,4 +1,4 @@
-# Free media
+## Free media
 
 Photos and Videos https://pexels.com
 
@@ -15,11 +15,13 @@ Music https://freemusicarchive.org/
 WEBM video format https://cloudinary.com/guides/video-formats/webm-format-what-you-should-know
 
 
-# Media Downloaders
+## Media Downloaders
 
 Twitter Space https://github.com/HoloArchivists/twspace-dl
 
 
-# AI Tools
+## AI Tools
+
+OpenAI Whisper (Speech-to-Text)
 
 Audio Splitter https://mikrotakt.app
