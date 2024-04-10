@@ -17,19 +17,9 @@ Upstash Ratelimit https://www.npmjs.com/package/@upstash/ratelimit
 Rate Limiter Flexible https://www.npmjs.com/package/rate-limiter-flexible
 
 
-## Js Evolution
+## Js New Methods
 
-Javascript ES6 https://www.w3schools.com/js/js_es6.asp
-
-JS 2016 https://www.w3schools.com/js/js_2016.asp
-
-JS 2017 https://www.w3schools.com/js/js_2017.asp
-
-JS 2018 https://www.w3schools.com/js/js_2018.asp
-
-JS 2019 https://www.w3schools.com/js/js_2019.asp
-
-JS 2020 https://www.w3schools.com/js/js_2020.asp
+structuredClone  https://developer.mozilla.org/en-US/docs/Web/API/structuredClone
 
 
 ## Misc
