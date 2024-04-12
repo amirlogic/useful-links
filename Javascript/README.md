@@ -9,6 +9,8 @@ Async: powerful functions for working with asynchronous JavaScript https://caola
 
 Nano ID: unique string ID generator for JavaScript https://www.npmjs.com/package/nanoid
 
+Date-fns (Lodash for Date): https://www.npmjs.com/package/date-fns
+
 
 ## Rate Limit
 
