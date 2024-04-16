@@ -1,4 +1,4 @@
-# Javascript ressources
+use# Javascript ressources
 
 
 ## Libraries
@@ -22,6 +22,11 @@ Rate Limiter Flexible https://www.npmjs.com/package/rate-limiter-flexible
 ## Js New Methods
 
 structuredClone  https://developer.mozilla.org/en-US/docs/Web/API/structuredClone
+
+
+## Js API Frameworks
+
+Hono https://hono.dev
 
 
 ## Misc
