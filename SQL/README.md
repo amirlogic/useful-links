@@ -26,6 +26,19 @@
 ```BETWEEN``` between these two values
 
 
+## Aggregate
+
+```SUM()```  Returns the total of all values.
+
+```AVG()```  Returns the mean average of all values.
+
+```COUNT()```  Counts and returns the number of values.
+
+```MIN()```  Returns the smallest value.
+
+```MAX()```  Returns the largest value.
+
+
 ## INNER JOIN
 
 Returns only Matching Records
