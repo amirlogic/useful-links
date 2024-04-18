@@ -14,6 +14,18 @@
 ```CONTAINS (column_name, 'search_pattern')```
 
 
+## More Commands
+
+```DISTINCT``` Remove duplicates
+
+
+## Filtering
+
+```<>``` not equal to
+
+```BETWEEN``` between these two values
+
+
 ## INNER JOIN
 
 Returns only Matching Records
