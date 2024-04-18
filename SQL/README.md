@@ -40,6 +40,8 @@
 
 ```MAX()```  Returns the largest value.
 
+```GROUP BY``` in combination with ```HAVING```
+
 
 ## INNER JOIN
 
@@ -48,6 +50,9 @@ Returns only Matching Records
 ```SELECT table.field FROM first_table INNER JOIN second_table ON first_table.field = second_table.field;```
 
 INNER is the default join type for JOIN (you can just write JOIN)
+
+
+## Window Functions
 
 
 
