@@ -11,6 +11,8 @@
 
 ```CONCAT('SQL', ' is', ' fun!')```     Two or more strings
 
+```CONTAINS (column_name, 'search_pattern')```
+
 
 ## INNER JOIN
 
