@@ -25,6 +25,8 @@
 
 ```BETWEEN``` between these two values
 
+```IS NULL``` and ```IS NOT NULL```
+
 
 ## Aggregate
 
