@@ -1,5 +1,11 @@
 # SQL ressources
 
+## Exercises
+
+https://www.sql-practice.com
+
+https://learnsql.com
+
 
 ## Functions (MySQL, Postgres, BigQuery)
 
