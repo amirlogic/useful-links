@@ -54,11 +54,11 @@ Returns only Matching Records
 INNER is the default join type for JOIN (you can just write JOIN)
 
 
-## Pattern search LIKE
+## Pattern search
 
 ```WHERE column LIKE pattern```
 
-Percentage (% ) wildcard matches a sequence of any character including space.
+Percentage (% ) wildcard matches a sequence of any character including space
 
 Underscore ( _ ) wildcard matches any single character
 
@@ -67,6 +67,11 @@ Underscore ( _ ) wildcard matches any single character
 
 
 
+## Date functions
+
+Default format is YYYY-MM-DD
+
+```YEAR``` Extracts year from a date
 
 
 
