@@ -16,7 +16,9 @@
 
 ## More Commands
 
-```DISTINCT``` Remove duplicates
+```DISTINCT``` Removes duplicates
+
+```EXISTS (subquery)``` Returns TRUE if the subquery returns at least one row, otherwise it returns FALSE
 
 
 ## Filtering
@@ -50,6 +52,15 @@ Returns only Matching Records
 ```SELECT table.field FROM first_table INNER JOIN second_table ON first_table.field = second_table.field;```
 
 INNER is the default join type for JOIN (you can just write JOIN)
+
+
+## Pattern search LIKE
+
+```WHERE column LIKE pattern```
+
+Percentage (% ) wildcard matches a sequence of any character including space.
+
+Underscore ( _ ) wildcard matches any single character
 
 
 ## Window Functions
