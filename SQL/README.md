@@ -73,11 +73,14 @@ Underscore ( _ ) wildcard matches any single character
 
 
 
-## Date functions
+## Date
 
 Default format is YYYY-MM-DD
 
 ```YEAR``` Extracts year from a date
 
 
+## Remember
+
+When using nested queries, the query inside parentheses runs first, and then its result is used in the outside query
 
