@@ -1,4 +1,4 @@
-use# Javascript ressources
+# Javascript ressources
 
 
 ## Libraries
@@ -21,12 +21,12 @@ Rate Limiter Flexible https://www.npmjs.com/package/rate-limiter-flexible
 
 ## Js New Methods
 
-structuredClone  https://developer.mozilla.org/en-US/docs/Web/API/structuredClone
+```structuredClone```  https://developer.mozilla.org/en-US/docs/Web/API/structuredClone
 
 
 ## Js API Frameworks
 
-Hono https://hono.dev
+Hono (use in CloudFlare Workers) https://hono.dev
 
 
 ## Misc
@@ -34,3 +34,7 @@ Hono https://hono.dev
 Alternative to Js Objects https://www.youtube.com/watch?v=hRSwSAr-gok
 
 Maps vs Objects https://www.youtube.com/watch?v=hubQQ3F337A
+
+HTML Table from dataset https://tabulator.info/
+
+
