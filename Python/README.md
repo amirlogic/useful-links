@@ -15,3 +15,8 @@ Exercises https://github.com/guipsamora/pandas_exercises
 Introduction to Pandas Data Analysis https://www.youtube.com/watch?v=_Eb0utIRdkw
 
 Exploratory Data Analysis https://www.youtube.com/watch?v=xi0vhXFPegw
+
+
+## Datasets to explore
+
+
