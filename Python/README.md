@@ -10,7 +10,7 @@ Advanced Python Mastery https://github.com/dabeaz-course/python-mastery.git
 
 ## Pandas
 
-Creating a DataFrame
+### Creating a DataFrame
 
 From Python dictionary: ```DataFrame(data)``` (Python dictionaries are not arrays of objects)
 
@@ -26,10 +26,11 @@ Then
 
 ```tail()``` to print the last 5 rows
 
-Cleaning
+### Cleaning
 
 ```dropna()``` Remove empty cells
 
+### Links
 
 Exercises https://github.com/guipsamora/pandas_exercises
 
