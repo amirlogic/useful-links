@@ -26,6 +26,10 @@ Then
 
 ```tail()``` to print the last 5 rows
 
+Cleaning
+
+```dropna()``` Remove empty cells
+
 
 Exercises https://github.com/guipsamora/pandas_exercises
 
