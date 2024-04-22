@@ -33,7 +33,7 @@ Cleaning
 
 Exercises https://github.com/guipsamora/pandas_exercises
 
-Introduction to Pandas Data Analysis https://www.youtube.com/watch?v=_Eb0utIRdkw
+Introduction to Pandas Data Analysis https://www.youtube.com/watch?v=DkjCaAMBGWM
 
 Exploratory Data Analysis https://www.youtube.com/watch?v=xi0vhXFPegw
 
