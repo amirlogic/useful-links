@@ -70,6 +70,13 @@ def my_function(arg1,arg2="default"):
 Also Supports: Arbitrary Arguments (*args), Keyword Arguments, Arbitrary Keyword Arguments (**kwargs)
 
 
+## Lambda
+
+A lambda function is a small anonymous function. It can take any number of arguments, but can only have one expression.
+
+```
+lambda arguments : expression
+```
 
 
 
