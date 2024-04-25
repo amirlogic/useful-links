@@ -49,13 +49,15 @@ Slicing: ```var_name[a:b]``` a = start, b = end (not included) or ```var_name[a:
 
 Replace: ```var_name.replace("search", "replaceby")```
 
-Split: ```var_name.split("sep")```
+Split and Join: ```var_name.split("sep")``` and ```"sep".join(iterable)```
 
 Remove whitespaces: ```var_name.strip()``` also ```var_name.lstrip()``` and ```var_name.rstrip()```
 
-F-Strings: ```print(f"some text {var_name}")```
+F-Strings: ```print(f"some text {var_name}")``` (also can do math operations inside)
 
 Search: ```var_name.index()``` and ```var_name.find()``` (find() method returns -1 if the value is not found)
+
+Check if: ```var_name.isdecimal()``` or ```var_name.isnumeric()``` (if all the characters are numeric)
 
 
 
