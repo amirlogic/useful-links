@@ -51,7 +51,9 @@ Replace: ```var_name.replace("search", "replaceby")```
 
 Split: ```var_name.split("sep")```
 
-Remove whitespaces: ```var_name.strip("string")```
+Remove whitespaces: ```var_name.strip()```
+
+F-Strings: ``` print(f"some text {var_name}") ```
 
 
 
