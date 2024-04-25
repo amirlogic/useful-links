@@ -8,7 +8,26 @@ Advanced Python Mastery https://github.com/dabeaz-course/python-mastery.git
 
 
 
-## Pandas
+## Datatypes
 
+Simple: String, Float, Integer, Boolean
 
+Composed:
 
+Lists: ```["val1","val2","val3"]```
+
+Dictionaries: 
+
+```
+{ "key1":"val1", "key2":"val2", "key3":"val3" }
+```
+
+Sets (unmutable):
+
+```
+{ "val1", "val2", "val3" }
+```
+
+Tuples (unmutable): ```("val1","val2","val3")```
+
+To get a variable type: ```type(var)```
