@@ -34,7 +34,7 @@ Range: ```range(10)```
 To get a variable type: ```type(var)```
 
 
-# Casting
+## Casting
 
 To integer: ```int()```
 
@@ -43,7 +43,17 @@ To float: ```float()```
 To string: ```str()```
 
 
-# String functions
+## String functions
 
 Slicing: ```var_name[a:b]``` a = start, b = end (not included) or ```var_name[a:]``` or ```var_name[:b]```
+
+Replace: ```var_name.replace("search", "replaceby")```
+
+Split: ```var_name.split("sep")```
+
+Remove whitespaces: ```var_name.strip("string")```
+
+
+
+
 
