@@ -51,9 +51,13 @@ Replace: ```var_name.replace("search", "replaceby")```
 
 Split: ```var_name.split("sep")```
 
-Remove whitespaces: ```var_name.strip()```
+Remove whitespaces: ```var_name.strip()``` also ```var_name.lstrip()``` and ```var_name.rstrip()```
 
-F-Strings: ``` print(f"some text {var_name}") ```
+F-Strings: ```print(f"some text {var_name}")```
+
+Search: ```var_name.index()``` and ```var_name.find()``` (find() method returns -1 if the value is not found)
+
+
 
 
 
