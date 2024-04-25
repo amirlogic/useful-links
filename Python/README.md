@@ -43,7 +43,7 @@ To float: ```float()```
 To string: ```str()```
 
 
-## String functions
+## String Methods
 
 Slicing: ```var_name[a:b]``` a = start, b = end (not included) or ```var_name[a:]``` or ```var_name[:b]```
 
@@ -59,6 +59,15 @@ Search: ```var_name.index()``` and ```var_name.find()``` (find() method returns 
 
 Check if: ```var_name.isdecimal()``` or ```var_name.isnumeric()``` (if all the characters are numeric)
 
+
+## Functions
+
+```
+def my_function(arg1,arg2="default"):
+  print("Demo")
+```
+
+Also Supports: Arbitrary Arguments (*args), Keyword Arguments, Arbitrary Keyword Arguments (**kwargs)
 
 
 
