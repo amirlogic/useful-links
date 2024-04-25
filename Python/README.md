@@ -7,14 +7,13 @@ String Formatting tutorial https://www.youtube.com/watch?v=ktOOKv6XJ7U
 Advanced Python Mastery https://github.com/dabeaz-course/python-mastery.git
 
 
-
-## Datatypes
+## Datatypes (most used)
 
 Simple: String, Float, Integer, Boolean
 
 Composed:
 
-Lists: ```["val1","val2","val3"]```
+Lists: ```[ "val1", "val2", "val3" ]```
 
 Dictionaries: 
 
@@ -28,6 +27,23 @@ Sets (unmutable):
 { "val1", "val2", "val3" }
 ```
 
-Tuples (unmutable): ```("val1","val2","val3")```
+Tuples (unmutable): ```( "val1", "val2", "val3" )```
+
+Range: ```range(10)```
 
 To get a variable type: ```type(var)```
+
+
+# Casting
+
+To integer: ```int()```
+
+To float: ```float()```
+
+To string: ```str()```
+
+
+# String functions
+
+Slicing: ```variable[a:b]``` a = start, b = end (not included)
+
