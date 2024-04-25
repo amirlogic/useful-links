@@ -45,5 +45,5 @@ To string: ```str()```
 
 # String functions
 
-Slicing: ```variable[a:b]``` a = start, b = end (not included)
+Slicing: ```var_name[a:b]``` a = start, b = end (not included) or ```var_name[a:]``` or ```var_name[:b]```
 
