@@ -16,9 +16,28 @@ Then
 
 ```tail()``` to print the last 5 rows
 
+
 ### Cleaning
 
-```dropna()``` Remove empty cells
+Deleting duplicates:
+```
+df.drop_duplicates()
+```
+
+```df.dropna(subset=['column_name'])``` Remove empty cells
+
+
+## Modifying
+
+Replacing values:
+```
+df['column_name'].str.replace('search','replaceby')
+```
+
+
+## Filtering
+
+
 
 ### Links
 
