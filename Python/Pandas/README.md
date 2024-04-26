@@ -23,6 +23,10 @@ df['column_name'].unique()
 df['column_name'].nunique()   # Just the number of unique values
 ```
 
+Count Rows inside a Group
+```
+df['column_name'].value_counts()
+```
 
 
 ## Cleaning
