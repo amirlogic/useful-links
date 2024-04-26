@@ -8,7 +8,8 @@ From CSV: ```read_csv('data.csv')```
 
 From JSON: ```read_json('data.json')```
 
-Then
+
+## Summarizing
 
 ```info()``` to display the structure (columns...)
 
@@ -16,8 +17,15 @@ Then
 
 ```tail()``` to print the last 5 rows
 
+Returns an array of unique values in a columns
+```
+df['column_name'].unique()
+df['column_name'].nunique()   # Just the number of unique values
+```
 
-### Cleaning
+
+
+## Cleaning
 
 Deleting duplicates:
 ```
@@ -39,7 +47,7 @@ df['column_name'].str.replace('search','replaceby')
 
 
 
-### Links
+## Links
 
 Exercises https://github.com/guipsamora/pandas_exercises
 
