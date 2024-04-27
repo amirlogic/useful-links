@@ -1,12 +1,19 @@
 # Pandas
 
-### Creating a DataFrame
+## Creating a DataFrame
 
 From Python dictionary: ```DataFrame(data)``` (Python dictionaries are not arrays of objects)
 
 From CSV: ```read_csv('data.csv')```
 
 From JSON: ```read_json('data.json')```
+
+
+## Index
+
+The index of a DataFrame is a series of labels that identify each row. The labels can be integers, strings, or any other hashable type.
+
+Can be accessed or modified using: ```df.index()```
 
 
 ## Summarizing
