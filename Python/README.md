@@ -60,6 +60,15 @@ Search: ```var_name.index()``` and ```var_name.find()``` (find() method returns 
 Check if: ```var_name.isdecimal()``` or ```var_name.isnumeric()``` (if all the characters are numeric)
 
 
+## Loops
+
+Loop over a collection of items while keeping track of the current item’s index
+```python
+names = ['Bob', 'Alice', 'Guido']
+for index, value in enumerate(names):
+    print(f'{index}: {value}')
+```
+
 ## Functions
 
 ```python
