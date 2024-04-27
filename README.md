@@ -8,6 +8,8 @@ I used to have too many opened tabs in my browser, now I'm sharing my links with
 
   [Pandas](Python/Pandas/README.md)
 
+[SQL](SQL/README.md)
+
 
 ## Misc
 
