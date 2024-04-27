@@ -25,13 +25,13 @@ Can be accessed or modified using: ```df.index()```
 ```tail()``` to print the last 5 rows
 
 Returns an array of unique values in a columns
-```
+```python
 df['column_name'].unique()
 df['column_name'].nunique()   # Just the number of unique values
 ```
 
 Count Rows inside a Group
-```
+```python
 df['column_name'].value_counts()
 ```
 
@@ -39,7 +39,7 @@ df['column_name'].value_counts()
 ## Cleaning
 
 Deleting duplicates:
-```
+```python
 df.drop_duplicates()
 ```
 
@@ -49,7 +49,7 @@ df.drop_duplicates()
 ## Modifying
 
 Replacing values:
-```
+```python
 df['column_name'].str.replace('search','replaceby')
 ```
 
