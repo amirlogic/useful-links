@@ -74,7 +74,7 @@ Also Supports: Arbitrary Arguments (*args), Keyword Arguments, Arbitrary Keyword
 
 A lambda function is a small anonymous function. It can take any number of arguments, but can only have one expression.
 
-```
+```python
 lambda arguments : expression
 ```
 
