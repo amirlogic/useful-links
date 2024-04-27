@@ -6,6 +6,8 @@ I used to have too many opened tabs in my browser, now I'm sharing my links with
 
 [Python](Python/README.md)
 
+  [Pandas](Python/Pandas/README.md)
+
 
 ## Misc
 
