@@ -1,3 +1,10 @@
+## ImageMagick
+
+Resize image
+```bash
+ magick convert image.png -resize 960x540 image_resized.png
+```
+
 ## Free media
 
 Photos and Videos https://pexels.com
