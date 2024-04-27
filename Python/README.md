@@ -62,7 +62,7 @@ Check if: ```var_name.isdecimal()``` or ```var_name.isnumeric()``` (if all the c
 
 ## Functions
 
-```
+```python
 def my_function(arg1,arg2="default"):
   print("Demo")
 ```
