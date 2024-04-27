@@ -4,6 +4,8 @@ A collection of valuable resources for programmers
 
 I used to have too many opened tabs in my browser, now I'm sharing my links with the community
 
+[Python](python/README.md)
+
 
 ## Misc
 
