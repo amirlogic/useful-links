@@ -4,7 +4,9 @@
 
 Constructor:
 ```javascript
-new DocumentFragment()
+let fragment = new DocumentFragment();
+let div = document.createElement("div");
+fragment.append(div);
 ```
 
 
