@@ -8,4 +8,6 @@ Text to speech https://ttsmp3.com/
 
 Webhook scheduler https://posthook.io/
 
-Webhook Analyzer: https://webhook.site/
+Webhook Analyzer https://webhook.site/
+
+Http Requests Playground https://httpbin.org/
