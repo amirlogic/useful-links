@@ -19,3 +19,11 @@ const formData = new FormData();
 
 formData.append("username", "Chris");
 ```
+
+## textContent
+
+Sets or returns the text content of the specified node.
+
+```javascript
+element.textContent  # no parethesis
+```
