@@ -1,7 +1,19 @@
-# Next.js ressources
+# DOM
 
-Next-Typescript boilerplate https://github.com/basementstudio/next-typescript
+## DocumentFragment
 
-Next.js Blog with Remote MDX Content Files and Nextjs 13 https://www.youtube.com/watch?v=6ih_3m_UPKg
+Constructor:
+```javascript
+new DocumentFragment()
+```
 
-Next.js Image component https://youtube.com/shorts/cFx1AVh-JrI
+
+## FormData
+
+Constructor:
+
+```javascript
+const formData = new FormData();
+
+formData.append("username", "Chris");
+```
