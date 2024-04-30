@@ -8,7 +8,7 @@ Advanced Python Mastery https://github.com/dabeaz-course/python-mastery.git
 
 ## Packages
 
-'''pip list'''
+List all installed: ```pip list```
 
 ## Datatypes (most used)
 
