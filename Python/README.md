@@ -6,6 +6,18 @@ String Formatting tutorial https://www.youtube.com/watch?v=ktOOKv6XJ7U
 
 Advanced Python Mastery https://github.com/dabeaz-course/python-mastery.git
 
+
+## Virtual Environments
+
+Virtualenv
+
+```lsvirtualenv```
+
+Conda
+
+```conda info --envs```
+
+
 ## Packages
 
 List all installed: ```pip list```
