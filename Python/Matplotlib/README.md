@@ -1,6 +1,6 @@
 # Matplotlib
 
-Start
+## Start
 
 ```python
 import matplotlib.pyplot as plt
