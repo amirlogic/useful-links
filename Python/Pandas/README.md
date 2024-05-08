@@ -45,6 +45,10 @@ df.drop_duplicates()
 
 ```df.dropna(subset=['column_name'])``` Remove empty cells
 
+Filling NaN values using the previous and next values:
+```python
+df[column].interpolate()
+```
 
 ## Modifying
 
