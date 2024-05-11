@@ -11,3 +11,5 @@ Webhook scheduler https://posthook.io/
 Webhook Analyzer https://webhook.site/
 
 Http Requests Playground https://httpbin.org/
+
+Online REST & SOAP API Testing Tool https://reqbin.com/
