@@ -1,4 +1,8 @@
-# Next.js ressources
+# Cloudfalre Workers
+
+Install wrangler: ```npx wrangler```
+
+Cheking: ```npx wrangler whoami```
 
 Next-Typescript boilerplate https://github.com/basementstudio/next-typescript
 
