@@ -1,11 +1,3 @@
-## ImageMagick
-
-Command line image editing https://imagemagick.com
-
-Resize image
-```bash
- magick convert image.png -resize 960x540 image_resized.png
-```
 
 ## Free media
 
@@ -34,3 +26,8 @@ Twitter Space https://github.com/HoloArchivists/twspace-dl
 OpenAI Whisper (Speech-to-Text)
 
 Audio Splitter https://mikrotakt.app
+
+
+## Misc
+
+SVG to JSX https://svg2jsx.com/
