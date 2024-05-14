@@ -1,6 +1,6 @@
 # FFMpeg
 
-Converts and edits videos
+Command line tool to converts and edits videos
 
 
 ## Extract audio from video
