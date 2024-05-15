@@ -1,11 +1,17 @@
 # Node.js
 
-Latest version: 22
+Two realeases par year: In April and in October
+
+Latest versions: 
+20 (LTS)
+22 (April 2024)
 
 
 ## Latest native support
 
 env file
+
+top level await
 
 refresh
 
