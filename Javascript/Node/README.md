@@ -3,29 +3,36 @@
 Two realeases par year: In April and in October
 
 Latest versions: 
+
 20 (LTS)
+
 22 (April 2024)
 
 
-## Experimental Features
+## Experimental Features (v22)
 
 Execute scripts directly from the package.json
 
 Ability to require ECMAScript modules (ESM) directly within CommonJS
 
+Single Executable Applications (Bundle an app into a single executable)
 
-## Latest native support
+
+## Recently Added Stable Native Features (v20)
 
 Env file
 
 Top level await
 
-Refresh
+### Watch mode
+
+```node --watch index.js```
+
 
 Native WebSocket client
 
 
-### Stable test runner
+### Test runner
 
 ```javascript
 import { test, mock } from 'node:test';
@@ -40,7 +47,7 @@ test('synchronous passing test', async (t) => {
 ```
 
 
-## Fetch API
+## Fetch API (since v18)
 
 ```javascript
 
