@@ -7,6 +7,13 @@ Latest versions:
 22 (April 2024)
 
 
+## Experimental Features
+
+Execute scripts directly from the package.json
+
+Ability to require ECMAScript modules (ESM) directly within CommonJS
+
+
 ## Latest native support
 
 env file
