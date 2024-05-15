@@ -16,11 +16,14 @@ Ability to require ECMAScript modules (ESM) directly within CommonJS
 
 ## Latest native support
 
-env file
+Env file
 
-top level await
+Top level await
 
-refresh
+Refresh
+
+Native WebSocket client
+
 
 ## Fetch API
 
