@@ -28,6 +28,8 @@ Top level await
 
 ### Watch mode
 
+Nodemon is mostly not needed anymore
+
 ```node --watch index.js```
 
 
