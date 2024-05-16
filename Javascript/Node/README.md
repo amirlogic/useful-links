@@ -11,6 +11,8 @@ Latest versions:
 
 ## Experimental Features (v22)
 
+Env file ```node --env-file=.env app.js```
+
 Execute scripts directly from the package.json
 
 Ability to require ECMAScript modules (ESM) directly within CommonJS
@@ -20,7 +22,7 @@ Single Executable Applications (Bundle an app into a single executable)
 
 ## Recently Added Stable Native Features (v20)
 
-Env file
+
 
 Top level await
 
