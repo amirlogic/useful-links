@@ -35,6 +35,11 @@ Alternative to Js Objects https://www.youtube.com/watch?v=hRSwSAr-gok
 
 Maps vs Objects https://www.youtube.com/watch?v=hubQQ3F337A
 
-HTML Table from dataset https://tabulator.info/
+HTML Table from dataset https://tabulator.info
+
+SQLite in the Browser https://sql.js.org
+
+Hosting read-only SQLite databases on static file hosters https://github.com/phiresky/sql.js-httpvfs
+
 
 
