@@ -72,3 +72,24 @@ app.get('/', (c) => c.text('Hono!'))
 export default app
 
 ```
+
+### API
+
+Query parameters: 
+
+```javascript
+app.get('/search', (c) => {
+  const query = c.req.query('q')
+  ...
+})```
+
+All parameters at once:
+
+```javascript
+app.get('/search', (c) => {
+  const { q, limit, offset } = c.req.query()
+  ...
+})
+```
+
+
