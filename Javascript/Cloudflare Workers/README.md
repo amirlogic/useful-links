@@ -5,6 +5,13 @@ The Cloudflare Workers runtime is built on top of the V8 JavaScript and WebAssem
 
 ## Getting started
 
+```bash
+npm create cloudflare
+```
+
+Initializes the app and installs dependencies
+
+
 Install wrangler: ```npx wrangler```
 
 Cheking: ```npx wrangler whoami```
