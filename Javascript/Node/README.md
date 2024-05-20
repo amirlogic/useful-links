@@ -19,6 +19,8 @@ Ability to require ECMAScript modules (ESM) directly within CommonJS
 
 Single Executable Applications (Bundle an app into a single executable)
 
+Run scripts defined in package.json directly ```node --run test``` (instead of npm run)
+
 
 ## Recently Added Stable Native Features (v20)
 
