@@ -5,7 +5,7 @@ The Cloudflare Workers runtime is built on top of the V8 JavaScript and WebAssem
 
 ## Getting started
 
-https://www.youtube.com/watch?v=H7Qe96fqg1M&t=202s
+https://www.youtube.com/watch?v=H7Qe96fqg1M
 
 ```bash
 npm create cloudflare
@@ -56,6 +56,11 @@ Compatibility date
 
 ## Hono
 
+A Javascript framework for http requests
+
+```npm install hono```
+
+Then we can put this in the source file:
 
 ```javascript
 
