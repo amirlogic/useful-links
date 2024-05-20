@@ -81,7 +81,8 @@ Query parameters:
 app.get('/search', (c) => {
   const query = c.req.query('q')
   ...
-})```
+})
+```
 
 All parameters at once:
 
@@ -92,4 +93,12 @@ app.get('/search', (c) => {
 })
 ```
 
+Method:
+
+```javascript
+app.get('/about/me', (c) => {
+  const method = c.req.method // `GET`
+  ...
+})
+```
 
