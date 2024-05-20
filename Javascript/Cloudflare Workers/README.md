@@ -19,6 +19,8 @@ Install wrangler: ```npx wrangler```
 
 Cheking: ```npx wrangler whoami```
 
+Deploying: ```npm deploy```
+
 
 ## CF Specific Stuffs
 
