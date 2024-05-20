@@ -34,4 +34,16 @@ export default {
 };
 ```
 
+### Response
+
+Can have a second parameter:
+
+```javascript
+Response('Just playing with workers!',
+	{
+		headers:{
+			'Content-Type':'application/json'
+		}
+	})
+```
 
