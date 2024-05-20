@@ -11,6 +11,7 @@ npm create cloudflare
 
 Initializes the app and installs dependencies
 
+```npx wrangler login```
 
 Install wrangler: ```npx wrangler```
 
