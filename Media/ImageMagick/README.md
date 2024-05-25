@@ -13,3 +13,9 @@ Command line image editing https://imagemagick.com
 ```bash
 convert original.png -matte mask.png -compose DstIn -composite output.png
 ```
+
+## Turn white color to transparent
+
+```bash
+ magick convert source.png -fuzz 20% -transparent white result.png
+```
