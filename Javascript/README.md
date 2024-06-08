@@ -29,6 +29,14 @@ Rate Limiter Flexible https://www.npmjs.com/package/rate-limiter-flexible
 Hono (use in CloudFlare Workers) https://hono.dev
 
 
+## Array.forEach vs Array.map
+
+forEach just execute a function for each element, can be used to modify the original array
+
+map returns another array
+
+
+
 ## Misc
 
 Alternative to Js Objects https://www.youtube.com/watch?v=hRSwSAr-gok
