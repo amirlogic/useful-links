@@ -31,9 +31,9 @@ Hono (use in CloudFlare Workers) https://hono.dev
 
 ## Array.forEach vs Array.map
 
-forEach just execute a function for each element, can be used to modify the original array
+```forEach``` just executes a function for each element, can be used to modify the original array
 
-map returns another array
+```map``` returns another array
 
 
 
