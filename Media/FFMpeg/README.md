@@ -21,6 +21,6 @@ Extract audio to WAV:
 
 ```ffmpeg -i inputVideo.mp4 outAudio.wav```
 
-Extract part of video:
+## Extract part of video:
 
 ```ffmpeg -ss 00:03:30 -to 00:03:48 -i input.mp4 -c copy output.mp4```
