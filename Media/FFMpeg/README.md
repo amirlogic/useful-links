@@ -3,6 +3,15 @@
 Command line tool to converts and edits videos
 
 
+```-i``` input
+
+```-c``` encoding  ```-c copy``` not re-encoded
+
+```-ss``` start position
+
+```-to``` end position
+
+
 ## Extract audio from video
 
 To find out which codec your audio track is using:
