@@ -30,6 +30,25 @@ Extract audio to WAV:
 
 ```ffmpeg -i inputVideo.mp4 outAudio.wav```
 
+
 ## Extract part of video:
 
 ```ffmpeg -ss 00:03:30 -to 00:03:48 -i input.mp4 -c copy output.mp4```
+
+
+## Concat two or more videos
+
+Create a text file and 
+
+join.txt
+
+```
+file filename1.mp4
+file filename2.mp4
+```
+
+Then run this in bash:
+ 
+```bash
+ffmpeg -f concat -safe 0 -i join.txt -c copy output.mp4
+```
