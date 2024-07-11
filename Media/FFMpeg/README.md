@@ -52,3 +52,16 @@ Then run this in bash:
 ```bash
 ffmpeg -f concat -safe 0 -i join.txt -c copy output.mp4
 ```
+
+### Remove audio
+
+```bash
+ffmpeg -i input.mp4 -an -c:v copy output.mp4
+```
+
+
+### Convert video
+
+```bash
+
+```
