@@ -31,3 +31,8 @@ Audio Splitter https://mikrotakt.app
 ## Misc
 
 SVG to JSX https://svg2jsx.com/
+
+
+## Audacity
+
+Record Desktop Audio https://support.audacityteam.org/basics/recording-desktop-audio
