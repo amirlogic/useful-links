@@ -39,6 +39,8 @@ React https://github.com/electron-react-boilerplate/electron-react-boilerplate
 
 NextJs https://github.com/DarkGuy10/NextJS-Electron-Boilerplate
 
+NextJs https://github.com/saltyshiomix/nextron
+
 
 ## Notes
 
