@@ -27,3 +27,7 @@ Then to build:
 ```bash
 npm run make
 ```
+
+## Recent changes in building
+
+The Electron team has changed how apps compiles
