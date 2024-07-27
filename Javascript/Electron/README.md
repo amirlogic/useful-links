@@ -28,6 +28,11 @@ Then to build:
 npm run make
 ```
 
+## Dev
+
+Dev/Prod boolean: ```app.isPackaged``` or ```electron-is-dev```
+
+
 ## Boilerplates
 
 React https://github.com/electron-react-boilerplate/electron-react-boilerplate
@@ -35,6 +40,6 @@ React https://github.com/electron-react-boilerplate/electron-react-boilerplate
 NextJs https://github.com/DarkGuy10/NextJS-Electron-Boilerplate
 
 
-## Recent changes in building
+## Notes
 
 The Electron team has changed how apps compiles
