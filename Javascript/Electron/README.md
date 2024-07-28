@@ -41,6 +41,8 @@ NextJs https://github.com/DarkGuy10/NextJS-Electron-Boilerplate
 
 NextJs https://github.com/saltyshiomix/nextron
 
+NextJs ts https://github.com/vercel/next.js/tree/canary/examples/with-electron-typescript
+
 
 ## Notes
 
