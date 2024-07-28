@@ -19,6 +19,8 @@ Advanced Python Mastery https://github.com/dabeaz-course/python-mastery.git
 
 ```conda create --name <my-env>```
 
+```conda activate <my-env>```
+
 
 ## Packages
 
