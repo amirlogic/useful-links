@@ -9,13 +9,15 @@ Advanced Python Mastery https://github.com/dabeaz-course/python-mastery.git
 
 ## Virtual Environments
 
-Virtualenv
+### Virtualenv
 
 ```lsvirtualenv```
 
-Conda
+### Conda
 
 ```conda info --envs```
+
+```conda create --name <my-env>```
 
 
 ## Packages
