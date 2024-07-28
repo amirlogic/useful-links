@@ -106,6 +106,9 @@ A lambda function is a small anonymous function. It can take any number of argum
 lambda arguments : expression
 ```
 
+## Error Fixing
+
+Pip SSL error https://www.youtube.com/watch?v=g9AeWgZJTZA
 
 
 
