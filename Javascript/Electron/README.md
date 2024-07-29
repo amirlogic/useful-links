@@ -33,6 +33,11 @@ npm run make
 Dev/Prod boolean: ```app.isPackaged``` or ```electron-is-dev```
 
 
+## HTML files
+
+```mainWindow.loadURL(`file://${path.join(__dirname, '/build/index.html')}`)```
+
+
 ## Boilerplates
 
 React https://github.com/electron-react-boilerplate/electron-react-boilerplate
