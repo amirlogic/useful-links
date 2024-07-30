@@ -38,6 +38,28 @@ Dev/Prod boolean: ```app.isPackaged``` or ```electron-is-dev```
 ```mainWindow.loadURL(`file://${path.join(__dirname, '/build/index.html')}`)```
 
 
+## Preload
+
+```preload.js```
+
+```javascript
+const { contextBridge } = require('electron')
+
+contextBridge.exposeInMainWorld('versions', {
+  node: () => process.versions.node,
+  chrome: () => process.versions.chrome,
+  electron: () => process.versions.electron
+  // we can also expose variables, not just functions
+})
+```
+
+```main.js```
+
+```javascript
+
+```
+
+
 ## Boilerplates
 
 React https://github.com/electron-react-boilerplate/electron-react-boilerplate
