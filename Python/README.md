@@ -26,6 +26,14 @@ Advanced Python Mastery https://github.com/dabeaz-course/python-mastery.git
 
 List all installed: ```pip list```
 
+
+## Requirements
+
+Export ```pip freeze > requirements.txt```
+
+ ```pip install -r requirements.txt```
+
+
 ## Datatypes (most used)
 
 Simple: String, Float, Integer, Boolean
