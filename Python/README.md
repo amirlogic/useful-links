@@ -26,6 +26,8 @@ Advanced Python Mastery https://github.com/dabeaz-course/python-mastery.git
 
 List all installed: ```pip list```
 
+Clear cache: ```python -m pip cache purge```
+
 
 ## Requirements
 
