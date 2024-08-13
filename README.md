@@ -4,11 +4,11 @@ A collection of valuable resources for programmers
 
 I used to have too many opened tabs in my browser, now I'm sharing my links with the community
 
-[Python](Python/README.md)
+| [Python](Python/README.md)  |  |
 
-  [Pandas](Python/Pandas/README.md)
+| [Pandas](Python/Pandas/README.md)  |  |
 
-[SQL](SQL/README.md)
+| [SQL](SQL/README.md)  |  |
 
 
 ## Misc
