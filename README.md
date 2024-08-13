@@ -9,7 +9,7 @@ I used to have too many opened tabs in my browser, now I'm sharing my links with
 | [Python](Python/README.md)  | [Pandas](Python/Pandas/README.md)  |
 | [Javascript](Javascript/README.md)  |  [Node.js](Javascript/Node/README.md)  |
 | [SQL](SQL/README.md)  |  |
-| [Media](SQL/README.md)  |  |
+| [Media](Media/README.md)  | [ImageMagick](Media/ImageMagick/README.md) - [FFMpeg](Media/FFMpeg/README.md) |
 
 ## Misc
 
