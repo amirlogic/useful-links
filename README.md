@@ -6,10 +6,10 @@ I used to have too many opened tabs in my browser, now I'm sharing my links with
 
 | left | right |
 |-------------------------------|-----|
-| [Python](Python/README.md)  |  |
-| [Pandas](Python/Pandas/README.md)  |  |
+| [Python](Python/README.md)  | [Pandas](Python/Pandas/README.md)  |
+| [Javascript](Javascript/README.md)  |  [Node.js](Javascript/Node/README.md)  |
 | [SQL](SQL/README.md)  |  |
-
+| [Media](SQL/README.md)  |  |
 
 ## Misc
 
