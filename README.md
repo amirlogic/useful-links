@@ -1,10 +1,10 @@
-# Useful links for programmers
+# Useful Resources for Programmers
 
-A collection of valuable resources for programmers
+A collection of valuable notes and resources for programmers
 
 I used to have too many opened tabs in my browser, now I'm sharing my links with the community
 
-| left | right |
+| Group | Topics |
 |-------------------------------|-----|
 | [Python](Python/README.md)  | [Pandas](Python/Pandas/README.md) - [NumPy](Python/NumPy/README.md) - [Matplotlib](Python/Matplotlib/README.md) |
 | [Javascript](Javascript/README.md)  |  [Node.js](Javascript/Node/README.md) - [React](Javascript/React/README.md) |
