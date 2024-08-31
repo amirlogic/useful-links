@@ -1,4 +1,4 @@
-# Python ressources
+# PyMuPDF
 
 Virtual Environments https://www.youtube.com/watch?v=0f3moPe_bhk
 
@@ -9,17 +9,17 @@ Advanced Python Mastery https://github.com/dabeaz-course/python-mastery.git
 
 ## Virtual Environments
 
-### Virtualenv
+### Installation
 
 ```lsvirtualenv```
 
 ### Conda
 
-```conda info --envs```
+```python
+import pymupdf
 
-```conda create --name <my-env> python=3.x```
-
-```conda activate <my-env>```
+doc = pymupdf.open("a.pdf") # open a document
+```
 
 
 ## Packages
