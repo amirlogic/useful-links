@@ -8,7 +8,7 @@ Virtual Environments https://www.youtube.com/watch?v=0f3moPe_bhk
 
 ### Installation
 
-```lsvirtualenv```
+```pip install --upgrade pymupdf```
 
 
 ### Basic Usage
