@@ -9,6 +9,11 @@ from io import BytesIO
 
 file_bytes = BytesIO()
 
+# Load data into file_bytes
+
+file_bytes.seek(0)
+
+print(file_bytes.getvalue())
 
 ```
 
