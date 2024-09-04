@@ -1,34 +1,36 @@
-# CherryPy
+# Advanced Python
 
-Lightweight Web Framework for Python
+Beyond basics
 
+## BytesIO
 
+```python
+from io import BytesIO
 
-## Virtual Environments
-
-### Virtualenv
-
-```lsvirtualenv```
-
-### Conda
-
-```conda info --envs```
+file_bytes = BytesIO()
 
 
+```
+
+### Generate temporary files and directories
+
+```python
+import tempfile
+
+fp = tempfile.TemporaryFile()
+fp.write(b'Hello world!')
+# read data from file
+fp.seek(0)
+fp.read()
+b'Hello world!'
+# close the file, it will be removed
+fp.close()
+```
 
 
-## Packages
-
-List all installed: ```pip list```
-
-Clear cache: ```python -m pip cache purge```
 
 
-## Requirements
 
-Export ```pip freeze > requirements.txt```
-
- ```pip install -r requirements.txt```
 
 
 
