@@ -17,7 +17,7 @@ print(file_bytes.getvalue())
 
 ```
 
-### Generate temporary files and directories
+## Generate temporary files and directories
 
 ```python
 import tempfile
