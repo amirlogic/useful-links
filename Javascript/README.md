@@ -36,6 +36,17 @@ Hono (use in CloudFlare Workers) https://hono.dev
 ```map``` returns another array
 
 
+## CMD arguments
+
+```javascript
+import * as process from "node:process"
+
+const filename = process.argv[2];
+```
+
+## Buffers
+
+
 
 ## Misc
 
