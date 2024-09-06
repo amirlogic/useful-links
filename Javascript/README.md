@@ -73,8 +73,8 @@ To copy data from one buffer to the other, we’ll use the copy() method on the 
 ## Base64
 
 ```javascript
-const encodedData = window.btoa("Hello, world"); // encode a string
-const decodedData = window.atob(encodedData); // decode the string
+const encodedData = btoa("Hello, world"); // encode a string
+const decodedData = atob(encodedData); // decode the string
 ```
 
 
