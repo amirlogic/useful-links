@@ -46,6 +46,36 @@ const filename = process.argv[2];
 
 ## Buffers
 
+A buffer is a space in memory (typically RAM) that stores binary data. 
+
+There are two ways of creating a buffer:
+
+```const demoBuf = Buffer.alloc(1024);```
+
+To create a buffer from pre-existing data, we use the from() method.
+
+```const stringBuf = Buffer.from('This is a string');```
+
+Note that it is possible to create a buffer from another buffer to copy the data.
+
+
+### Buffer Methods
+
+To get back the string from the buffer: ```stringBuf.toString();```
+
+toString() takes an optional parameter which is encoding.
+
+If we wanted to change the contents of the entire buffer, we can use the write() method. The write() method accepts a string that will replace the contents of a buffer.
+
+To copy data from one buffer to the other, we’ll use the copy() method on the buffer that’s the source of the information.
+
+
+## Base64
+
+```javascript
+const encodedData = window.btoa("Hello, world"); // encode a string
+const decodedData = window.atob(encodedData); // decode the string
+```
 
 
 ## Misc
