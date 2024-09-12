@@ -18,12 +18,12 @@ class WebApp(object):
 cherrypy.quickstart(WebApp())
 ```
 
-## Packages
+## Headers
 
-List all installed: ```pip list```
-
-Clear cache: ```python -m pip cache purge```
-
+```python
+cherrypy.response.headers['Content-Type'] = 'application/pdf'
+        cherrypy.response.headers['Content-Disposition'] = 'attachment; filename="generated_file.pdf"'
+```
 
 ## Configuration
 
