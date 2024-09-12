@@ -4,9 +4,7 @@ Lightweight Web Framework for Python
 
 
 
-## Virtual Environments
-
-### Basic App
+## Basic App (Hello World)
 
 ```python
 
@@ -27,11 +25,17 @@ List all installed: ```pip list```
 Clear cache: ```python -m pip cache purge```
 
 
-## Requirements
+## Configuration
+
+```python
+cherrypy.config.update({'server.socket_host': '127.0.0.1',
+                        'server.socket_port': 8080,
+                       })
+```
 
 Export ```pip freeze > requirements.txt```
 
- ```pip install -r requirements.txt```
+ 
 
 
 
