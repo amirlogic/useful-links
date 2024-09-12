@@ -6,16 +6,19 @@ Lightweight Web Framework for Python
 
 ## Virtual Environments
 
-### Virtualenv
+### Basic App
 
-```lsvirtualenv```
+```python
 
-### Conda
+import cherrypy
 
-```conda info --envs```
+class WebApp(object):
+    @cherrypy.expose
+    def index(self):
+        return "Welcome to CherryPy!"
 
-
-
+cherrypy.quickstart(WebApp())
+```
 
 ## Packages
 
