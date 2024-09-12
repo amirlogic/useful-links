@@ -26,6 +26,26 @@ cherrypy.quickstart(WebApp())
         cherrypy.response.headers['Content-Disposition'] = 'attachment; filename="generated_file.pdf"'
 ```
 
+## JSON
+
+### Decoding (json_in)
+
+```python
+@cherrypy.expose
+    @cherrypy.tools.json_in()
+    def index(self):
+        data = cherrypy.request.json
+```
+
+### Encoding (json_out)
+
+```python
+@cherrypy.expose
+    @cherrypy.tools.json_out()
+    def index(self):
+        return {'key': 'value'}
+
+```
 
 ## Configuration
 
