@@ -18,12 +18,14 @@ class WebApp(object):
 cherrypy.quickstart(WebApp())
 ```
 
+
 ## Headers
 
 ```python
 cherrypy.response.headers['Content-Type'] = 'application/pdf'
         cherrypy.response.headers['Content-Disposition'] = 'attachment; filename="generated_file.pdf"'
 ```
+
 
 ## Configuration
 
@@ -33,7 +35,6 @@ cherrypy.config.update({'server.socket_host': '127.0.0.1',
                        })
 ```
 
-Export ```pip freeze > requirements.txt```
 
  
 
