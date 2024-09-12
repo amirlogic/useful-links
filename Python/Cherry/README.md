@@ -22,7 +22,7 @@ cherrypy.quickstart(WebApp())
 ## Headers
 
 ```python
-cherrypy.response.headers['Content-Type'] = 'application/pdf'
+        cherrypy.response.headers['Content-Type'] = 'application/pdf'
         cherrypy.response.headers['Content-Disposition'] = 'attachment; filename="generated_file.pdf"'
 ```
 
