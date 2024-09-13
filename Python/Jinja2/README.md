@@ -1,25 +1,21 @@
-# Python ressources
+# Jinja2
 
-Virtual Environments https://www.youtube.com/watch?v=0f3moPe_bhk
-
-String Formatting tutorial https://www.youtube.com/watch?v=ktOOKv6XJ7U
-
-Advanced Python Mastery https://github.com/dabeaz-course/python-mastery.git
-
+Jinja uses a central object called the template Environment. Instances of this class are used to store the configuration and global objects, and are used to load templates from the file system or other locations. Even if you are creating templates from strings by using the constructor of Template class, an environment is created automatically for you, albeit a shared one.
 
 ## Virtual Environments
 
-### Virtualenv
+### Basics
 
-```lsvirtualenv```
+```python
+from jinja2 import Environment, PackageLoader, select_autoescape
+env = Environment(
+    loader=PackageLoader("yourapp"),
+    autoescape=select_autoescape()
+)```
 
 ### Conda
 
 ```conda info --envs```
-
-```conda create --name <my-env> python=3.x```
-
-```conda activate <my-env>```
 
 
 ## Packages
