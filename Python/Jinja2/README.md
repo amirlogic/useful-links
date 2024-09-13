@@ -2,27 +2,26 @@
 
 Jinja uses a central object called the template Environment. Instances of this class are used to store the configuration and global objects, and are used to load templates from the file system or other locations. Even if you are creating templates from strings by using the constructor of Template class, an environment is created automatically for you, albeit a shared one.
 
-## Virtual Environments
+## Basics
 
-### Basics
+### Init
 
 ```python
 from jinja2 import Environment, PackageLoader, select_autoescape
 env = Environment(
     loader=PackageLoader("yourapp"),
     autoescape=select_autoescape()
-)```
+)
+```
 
-### Conda
+### Loading a template
 
-```conda info --envs```
+```template = env.get_template("mytemplate.html")```
 
 
-## Packages
+## Rendering
 
-List all installed: ```pip list```
-
-Clear cache: ```python -m pip cache purge```
+```print(template.render(the="variables", go="here"))```
 
 
 ## Requirements
