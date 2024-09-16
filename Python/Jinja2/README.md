@@ -7,9 +7,9 @@ Jinja uses a central object called the template Environment. Instances of this c
 ### Init
 
 ```python
-from jinja2 import Environment, PackageLoader, select_autoescape
+from jinja2 import Environment, FileSystemLoader, select_autoescape
 env = Environment(
-    loader=PackageLoader("yourapp"),
+    loader=FileSystemLoader(''),
     autoescape=select_autoescape()
 )
 ```
