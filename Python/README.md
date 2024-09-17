@@ -57,6 +57,10 @@ dict = { "key1":"val1", "key2":"val2", "key3":"val3" }
 
 To get a value: ```dict['key1']```
 
+Can also be created using the constructor:
+
+```dict(sape=4139, guido=4127, jack=4098)``` which returns ```{'sape':4139, 'guido':4127, 'jac':4098}```
+
 
 ### Sets (unmutable):
 
