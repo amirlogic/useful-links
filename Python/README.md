@@ -9,9 +9,11 @@ Advanced Python Mastery https://github.com/dabeaz-course/python-mastery.git
 
 ## Virtual Environments
 
+
 ### Virtualenv
 
 ```lsvirtualenv```
+
 
 ### Conda
 
@@ -42,23 +44,35 @@ Simple: String, Float, Integer, Boolean
 
 Composed:
 
-Lists: ```[ "val1", "val2", "val3" ]```
+### Lists: 
 
-Dictionaries: 
+```[ "val1", "val2", "val3" ]```
+
+
+### Dictionaries: 
 
 ```
-{ "key1":"val1", "key2":"val2", "key3":"val3" }
+dict = { "key1":"val1", "key2":"val2", "key3":"val3" }
 ```
 
-Sets (unmutable):
+To get a value: ```dict['key1']```
+
+
+### Sets (unmutable):
 
 ```
 { "val1", "val2", "val3" }
 ```
 
-Tuples (unmutable): ```( "val1", "val2", "val3" )```
+### Tuples (unmutable): 
 
-Range: ```range(10)```
+```( "val1", "val2", "val3" )```
+
+
+### Range: 
+
+```range(10)```
+
 
 To get a variable type: ```type(var)```
 
