@@ -23,5 +23,5 @@ env = Environment(
 
 ```print(template.render(the="variables", go="here"))```
 
-
+render() can also take a dictionary as argument
 
