@@ -53,3 +53,31 @@ Inner loops:
 </table>
 
 ```
+
+### Conditions
+
+```
+<h1>Conditionals in Jinja2</h1>
+<h2>Basic Comparisons</h2>
+
+{% if company == "Apple" %}
+    <h3>Available {{ company }} Products</h3>
+    <ul>
+        <li>iPhone</li>
+        <li>iPad</li>
+        <li>iMac</li>
+    </ul>
+
+{% elif company == "Microsoft" %}
+    <h3>Available {{ company }} Products</h3>
+    <ul>
+        <li>Windows Phone</li>
+        <li>Surface Pro</li>
+        <li>Surface Book</li>
+    </ul>
+
+{% else %}
+    No {{ company }} products available.
+
+{% endif %}
+```
