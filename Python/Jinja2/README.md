@@ -30,10 +30,26 @@ render() can also take a dictionary as argument
 
 ### Loops
 
-```python
+```
 <ul>
 {% for row in rows %}
   <li class="{{ loop.cycle('odd', 'even') }}">{{ row }}</li>
 {% endfor %}
 </ul>
+```
+
+Inner loops:
+
+```
+<table>
+{% for row in table %}
+  <tr>
+  {% set rowloop = loop %}
+  {% for cell in row %}
+    <td id="cell-{{ rowloop.index }}-{{ loop.index }}">{{ cell }}</td>
+  {% endfor %}
+  </tr>
+{% endfor %}
+</table>
+
 ```
