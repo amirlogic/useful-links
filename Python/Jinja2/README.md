@@ -19,9 +19,21 @@ env = Environment(
 ```template = env.get_template("mytemplate.html")```
 
 
-## Rendering
+### Rendering
 
 ```print(template.render(the="variables", go="here"))```
 
 render() can also take a dictionary as argument
 
+
+## Advanced
+
+### Loops
+
+```python
+<ul>
+{% for row in rows %}
+  <li class="{{ loop.cycle('odd', 'even') }}">{{ row }}</li>
+{% endfor %}
+</ul>
+```
