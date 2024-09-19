@@ -80,4 +80,11 @@ Inner loops:
     No {{ company }} products available.
 
 {% endif %}
+
+
+### Inline expressions
+
+```
+{% set x = 'apples' if 13 is even else 'oranges' %}
+{{ x }}
 ```
