@@ -80,7 +80,7 @@ Inner loops:
     No {{ company }} products available.
 
 {% endif %}
-
+```
 
 ### Inline expressions
 
