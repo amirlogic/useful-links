@@ -20,11 +20,16 @@ doc = pymupdf.open("a.pdf") # open a document
 ```
 
 
-## xxx
+## Text Extraction
 
-```pip list```
+```python
+for page in doc: # iterate the document pages
+                    text = page.get_text().encode("utf8") # get plain text (is in UTF-8)
+                    print("Page text: ",text)
+                    output += str(text) # write text of page
 
-```python -m pip cache purge```
+doc.close()
+```
 
 
 
