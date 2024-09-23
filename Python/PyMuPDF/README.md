@@ -23,18 +23,30 @@ doc = pymupdf.open("a.pdf") # open a document
 
 ```python
 for page in doc: # iterate the document pages
-                    text = page.get_text().encode("utf8") # get plain text (is in UTF-8)
-                    print("Page text: ",text)
-                    output += str(text) # write text of page
+  text = page.get_text().encode("utf8") # get plain text (is in UTF-8)
+  print("Page text: ",text)
 
 doc.close()
 ```
 
 
 
-## xxx
+## Tables
 
-```int()```
+```python
+for page in doc:
+  tbls = page.find_tables()
+  print("Tables found: ",len(tbls.tables))
+                   
+                    if(len(tbls.tables)>0):
+                        print("This page contains tables")
+                        for wt in tbls.tables:
+                            cr = wt.extract()
+                            print(cr)
+                            
+doc.close()
+
+```
 
 
 
