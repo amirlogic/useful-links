@@ -19,7 +19,7 @@ doc = pymupdf.open("a.pdf") # open a document
 ```
 
 
-## Text Extraction
+### Text Extraction
 
 ```python
 for page in doc: # iterate the document pages
@@ -31,7 +31,7 @@ doc.close()
 
 
 
-## Tables
+### Tables
 
 ```python
 for page in doc:
