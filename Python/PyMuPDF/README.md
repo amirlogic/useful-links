@@ -48,7 +48,7 @@ doc.close()
 
 ```
 
-
+Data can also be converted to Pandas Dataframe or Excel file
 
 
 ## String Methods
@@ -58,9 +58,7 @@ doc.close()
 
 
 
-## Error Fixing
 
-Pip SSL error https://www.youtube.com/watch?v=g9AeWgZJTZA
 
 
 
