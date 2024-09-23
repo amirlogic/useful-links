@@ -38,11 +38,11 @@ for page in doc:
   tbls = page.find_tables()
   print("Tables found: ",len(tbls.tables))
                    
-                    if(len(tbls.tables)>0):
-                        print("This page contains tables")
-                        for wt in tbls.tables:
-                            cr = wt.extract()
-                            print(cr)
+  if(len(tbls.tables)>0):
+    print("This page contains tables")
+    for wt in tbls.tables:
+      cr = wt.extract()
+      print(cr)
                             
 doc.close()
 
