@@ -1,10 +1,9 @@
 # PyMuPDF
 
-Virtual Environments https://www.youtube.com/watch?v=0f3moPe_bhk
+Facts on PDF files:
+* Can contain not only text and images, but also videos, 3D models and can hold attached files
+* Fonts can be included, but not always (licencing)
 
-
-
-## Virtual Environments
 
 ### Installation
 
