@@ -41,6 +41,27 @@ pix.save("page-%i.png" % page.number)
 print("pixmap saved")
 ```
 
+### Insert Image
+
+```python
+doc = pymupdf.open() # some new or existing PDF document
+
+rect = pymupdf.Rect(0, 0, 100, 100) 
+
+img = open(filename, "rb").read()
+
+img_xref = 0 
+
+page = doc.insert_page(-1) #doc[pgnum]
+
+pg = doc[0]
+
+img_xref = pg.insert_image(rect, stream=img,
+                 xref=img_xref )
+
+print("Image inserted: ", filename)
+```
+
 ### Tables
 
 ```python
@@ -59,6 +80,8 @@ doc.close()
 ```
 
 Data can also be converted to Pandas Dataframe or Excel file
+
+
 
 
 ## String Methods
