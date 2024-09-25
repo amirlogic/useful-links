@@ -29,7 +29,17 @@ for page in doc: # iterate the document pages
 doc.close()
 ```
 
+### Save page as pixmap
 
+```python
+page = doc[pgnum]
+
+pix = page.get_pixmap()
+
+pix.save("page-%i.png" % page.number)
+
+print("pixmap saved")
+```
 
 ### Tables
 
