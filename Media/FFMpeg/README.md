@@ -68,6 +68,12 @@ With the -map 0:v -map 1:a arguments, the video track from the first input (0:v)
 The -c:v copy arguments tell FFmpeg not to re-encode the video.
 By default, when FFmpeg receives multiple input files, it uses the length of the longest input file as the output duration. We're going to use the shortest duration here, so we'll use -shortest.
 
+### Reverse video
+
+```bash
+ffmpeg -i originalVideo.mp4 -vf reverse reversedVideo.mp4
+```
+
 ### Convert video
 
 ```bash
