@@ -3,6 +3,10 @@
 Facts on PDF files:
 * Can contain not only text and images, but also videos, 3D models and can hold attached files
 * Fonts can be included, but not always (licencing)
+* In PDF documents, everything is measured using “Point”. In the PDF world, 1 point = 1/72 inch
+
+A PDF document also contains page boundaries also known as “boxes”. The MediaBox is used to specify the width and height of the page. For the average user, this probably equals the actual page size.
+The MediaBox is mandatory and is the largest page box in a PDF document. The CropBox is optional and defines the region to which the page content is to clipped, it is used for displaying and printing. It can have the same size as the MediaBox, but if it is smaller, what is outside the CropBox boundaries, won’t be visible.
 
 
 ### Installation
