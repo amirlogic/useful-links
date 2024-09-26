@@ -24,6 +24,19 @@ doc = pymupdf.open("a.pdf") # open a document
 ```
 
 
+### Working with pages
+
+```python
+
+page = doc.load_page(pno)  # loads page number 'pno' of the document (0-based)
+
+# or
+
+page = doc[pno]
+
+```
+
+
 ### Text Extraction
 
 ```python
