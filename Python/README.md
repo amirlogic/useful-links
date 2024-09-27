@@ -139,4 +139,7 @@ lambda arguments : expression
 Pip SSL error https://www.youtube.com/watch?v=g9AeWgZJTZA
 
 
+### Libraries
+
+Image manipulation https://pypi.org/project/pillow/
 
