@@ -10,6 +10,9 @@ import os
 os.getenv("USER")
 ```
 
+https://www.datacamp.com/tutorial/python-environment-variables
+
+
 ## BytesIO
 
 ```python
