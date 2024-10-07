@@ -15,6 +15,8 @@ https://www.datacamp.com/tutorial/python-environment-variables
 
 ## with statement
 
+"with" statement helps avoiding bugs and leaks by ensuring that a resource is properly released when the code using the resource is completely executed. The with statement is popularly used with file streams.
+
 ```python
 with open('file_path', 'w') as file:
     file.write('hello world !')
