@@ -13,6 +13,14 @@ os.getenv("USER")
 https://www.datacamp.com/tutorial/python-environment-variables
 
 
+## with statement
+
+```python
+with open('file_path', 'w') as file:
+    file.write('hello world !')
+```
+
+
 ## BytesIO
 
 ```python
