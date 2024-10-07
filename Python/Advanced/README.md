@@ -2,6 +2,14 @@
 
 Beyond basics
 
+
+## Environment variables
+
+```python
+import os
+os.getenv("USER")
+```
+
 ## BytesIO
 
 ```python
