@@ -16,6 +16,17 @@ The index of a DataFrame is a series of labels that identify each row. The label
 Can be accessed or modified using: ```df.index()```
 
 
+## Columns
+
+### Get values
+
+```df.columns.values```
+
+### Rename
+
+```df.rename(columns={'col0':'new col0','col1':'new col1','col2':'new col2'}, inplace=True)```
+
+
 ## Summarizing
 
 ```info()``` to display the structure (columns...)
