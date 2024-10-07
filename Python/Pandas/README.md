@@ -52,13 +52,28 @@ df[column].interpolate()
 
 ## Modifying
 
-Replacing values:
+### Replacing values:
+
 ```python
 df['column_name'].str.replace('search','replaceby')
 ```
 
+### Deleting values
 
-## Filtering
+Columns:
+
+```python
+newdf = df.drop("age", axis='columns')
+```
+
+Rows:
+
+```python
+newdf = df.drop(99, axis='index')
+```
+
+
+
 
 
 
