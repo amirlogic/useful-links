@@ -28,4 +28,4 @@ plt.xticks(rotation = 90)
 ```python
 plt.savefig(fname)
 ```
-
+Note that ```pyplot.show``` clears the current plot, and should therefore only be called after pyplot.savefig, to avoid saving a blank image.
