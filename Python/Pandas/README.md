@@ -83,9 +83,13 @@ Rows:
 newdf = df.drop(99, axis='index')
 ```
 
+### Casting
 
+To numeric:
 
-
+```python
+pd.to_numeric(df['col_name'], errors='coerce')
+```
 
 
 ## Links
