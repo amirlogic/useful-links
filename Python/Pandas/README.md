@@ -91,6 +91,16 @@ To numeric:
 pd.to_numeric(df['col_name'], errors='coerce')
 ```
 
+Advantage: Can handle non-numeric values
+
+astype:
+
+```python
+df.astype({'col_name': 'float'},errors='ignore').dtypes
+```
+
+Returns unchanged series (or error) if non-numeric values are present
+
 
 ## Links
 
