@@ -26,6 +26,6 @@ plt.xticks(rotation = 90)
 ## Saving plots
 
 ```python
-plt.savefig(fname)
+plt.savefig(fname,bbox_inches="tight")
 ```
 Note that ```pyplot.show``` clears the current plot, and should therefore only be called after pyplot.savefig, to avoid saving a blank image.
