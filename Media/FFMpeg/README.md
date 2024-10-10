@@ -77,5 +77,5 @@ ffmpeg -i originalVideo.mp4 -vf reverse reversedVideo.mp4
 ### Convert video
 
 ```bash
-
+ffmpeg -i "input_file_name.mkv" -map 0 -c copy "output_file_name.mp4"
 ```
