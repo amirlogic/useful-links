@@ -1,7 +1,10 @@
-# NumPy
+# Pillow (PIL)
 
-## Arrange
+Image manipulation for Python
 
-Return evenly spaced values within a given interval
 
-```numpy.arange()```
+## Open
+
+
+
+```im = Image.open("/path/to/image.jpg")```
