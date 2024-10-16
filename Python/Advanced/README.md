@@ -78,7 +78,9 @@ with open('eggs.csv', newline='') as csvfile:
         print(', '.join(row))
 ```
 
+## Video
 
+Image processing https://www.youtube.com/watch?v=oyqNdcbKhew
 
 
 
