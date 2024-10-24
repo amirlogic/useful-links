@@ -23,6 +23,15 @@ with open('file_path', 'w') as file:
 ```
 
 
+## Write file
+
+```python
+f = open("filename.ext", "a")
+f.write("File content")
+f.close()
+```
+
+
 ## BytesIO
 
 ```python
