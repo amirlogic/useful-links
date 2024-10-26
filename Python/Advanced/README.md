@@ -30,7 +30,7 @@ f = open("filename.ext", "a")
 f.write("File content")
 f.close()
 ```
-
+"a" means appending, adds content to an existing file (or create if does not exists)
 
 ## BytesIO
 
