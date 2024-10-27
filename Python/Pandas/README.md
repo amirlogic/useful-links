@@ -56,17 +56,24 @@ df['column_name'].value_counts()
 
 ## Cleaning
 
-Deleting duplicates:
+### Deleting duplicates:
+
 ```python
 df.drop_duplicates()
 ```
 
-```df.dropna(subset=['column_name'])``` Remove empty cells
+### Removing  
+
+Remove empty cells
+
+```df.dropna( inplace=False, how='any', subset=['column_name'], )``` 
 
 Filling NaN values using the previous and next values:
+
 ```python
 df[column].interpolate()
 ```
+
 
 ## Modifying
 
