@@ -97,6 +97,9 @@ Rows:
 newdf = df.drop(99, axis='index')
 ```
 
+Also takes lists as input
+
+
 ### Casting
 
 To numeric:
