@@ -18,13 +18,20 @@ Can be accessed or modified using: ```df.index()```
 
 ## Columns
 
+
 ### Get values
 
 ```df.columns.values```
 
+
 ### Rename
 
 ```df.rename(columns={'col0':'new col0','col1':'new col1','col2':'new col2'}, inplace=True)```
+
+
+### Merge
+
+```df['merged'] = pd.concat([df['col1'], df['col2']])```
 
 
 ## Summarizing
