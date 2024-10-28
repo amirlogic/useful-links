@@ -107,6 +107,13 @@ Search: ```var_name.index()``` and ```var_name.find()``` (find() method returns 
 Check if: ```var_name.isdecimal()``` or ```var_name.isnumeric()``` (if all the characters are numeric)
 
 
+## List methods
+
+At the end: ```list.append("new_element")```
+
+Insert to index: ```list.insert(1, "new_element")```
+
+
 ## Loops
 
 Loop over a collection of items while keeping track of the current item’s index
