@@ -113,6 +113,10 @@ At the end: ```list.append("new_element")```
 
 Insert to index: ```list.insert(1, "new_element")```
 
+Remove item: ```list.remove("list_element")```
+
+Clear list: ```list.clear()```
+
 
 ## Loops
 
