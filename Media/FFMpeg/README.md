@@ -13,6 +13,8 @@ Command line tool to converts and edits videos
 
 ```-an``` audio none
 
+```-vf``` indicates the usage of a video filter
+
 
 ## Extract audio from video
 
