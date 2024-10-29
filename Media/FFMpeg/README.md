@@ -82,10 +82,12 @@ ffmpeg -i originalVideo.mp4 -vf reverse reversedVideo.mp4
 ffmpeg -i "input_file_name.mkv" -map 0 -c copy "output_file_name.mp4"
 ```
 
-## Speed up video
+## Change video speed
 
 ```bash
 ffmpeg -i input.mp4 -filter:v "setpts=0.5*PTS" -an output.mp4
 ```
 
 0.5 means x2
+
+To slow down your video, you have to use a multiplier greater than 1
