@@ -82,7 +82,7 @@ ffmpeg -i originalVideo.mp4 -vf reverse reversedVideo.mp4
 ffmpeg -i "input_file_name.mkv" -map 0 -c copy "output_file_name.mp4"
 ```
 
-## Spped up video
+## Speed up video
 
 ```bash
 ffmpeg -i input.mp4 -filter:v "setpts=0.5*PTS" -an output.mp4
