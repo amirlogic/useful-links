@@ -91,3 +91,11 @@ ffmpeg -i input.mp4 -filter:v "setpts=0.5*PTS" -an output.mp4
 0.5 means x2
 
 To slow down your video, you have to use a multiplier greater than 1
+
+
+## Basic Cropping 
+
+```bash
+ffmpeg -i input.mp4 -filter:v "crop=out_w:out_h:x:y" output.mp4
+```
+
