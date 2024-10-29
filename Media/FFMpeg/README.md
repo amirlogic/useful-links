@@ -11,6 +11,8 @@ Command line tool to converts and edits videos
 
 ```-to``` end position
 
+```-an``` audio none
+
 
 ## Extract audio from video
 
@@ -53,13 +55,13 @@ Then run this in bash:
 ffmpeg -f concat -safe 0 -i join.txt -c copy output.mp4
 ```
 
-### Remove audio
+## Remove audio
 
 ```bash
 ffmpeg -i input.mp4 -an -c:v copy output.mp4
 ```
 
-### Adding audio to video
+## Adding audio to video
 
 ```bash
 ffmpeg -i video.mp4 -i audio.mp3 -map 0:v -map 1:a -c:v copy -c:a copy -shortest output.mp4
@@ -68,14 +70,22 @@ With the -map 0:v -map 1:a arguments, the video track from the first input (0:v)
 The -c:v copy arguments tell FFmpeg not to re-encode the video.
 By default, when FFmpeg receives multiple input files, it uses the length of the longest input file as the output duration. We're going to use the shortest duration here, so we'll use -shortest.
 
-### Reverse video
+## Reverse video
 
 ```bash
 ffmpeg -i originalVideo.mp4 -vf reverse reversedVideo.mp4
 ```
 
-### Convert video
+## Convert video
 
 ```bash
 ffmpeg -i "input_file_name.mkv" -map 0 -c copy "output_file_name.mp4"
 ```
+
+## Spped up video
+
+```bash
+ffmpeg -i input.mp4 -filter:v "setpts=0.5*PTS" -an output.mp4
+```
+
+0.5 means x2
