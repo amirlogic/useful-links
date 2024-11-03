@@ -1,3 +1,9 @@
+## HTML5 Base64 image
+
+```html
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA..."/>
+```
+
 
 ## Free media
 
