@@ -4,6 +4,7 @@
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA..."/>
 ```
 
+Image to Base64: https://www.base64-image.de/
 
 ## Free media
 
