@@ -86,6 +86,11 @@ For more detail:
 https://www.youtube.com/watch?v=zV-XwShNx3o
 
 
+### Pull requests
+
+https://www.youtube.com/watch?v=jRLGobWwA3Y
+
+
 ## Misc
 
 Free resources for developers https://free-for.dev/#/
