@@ -11,6 +11,23 @@ I used to have too many opened tabs in my browser, now I'm sharing my links with
 | [SQL](SQL/README.md)  |  |
 | [Media](Media/README.md)  | [ImageMagick](Media/ImageMagick/README.md) - [FFMpeg](Media/FFMpeg/README.md) |
 
+
+## Git
+
+### Reverse commits
+
+Go back 5 commits, keeping changes
+
+```bash
+git reset HEAD~5
+```
+
+Go back 3 commits, discarding changes
+
+```bash
+git reset --hard HEAD~3
+```
+
 ## Misc
 
 Free resources for developers https://free-for.dev/#/
