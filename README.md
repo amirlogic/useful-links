@@ -14,6 +14,41 @@ I used to have too many opened tabs in my browser, now I'm sharing my links with
 
 ## Git
 
+### Branches
+
+List existing branches:
+
+```bash
+git branch
+```
+
+Option -r causes the remote-tracking branches to be listed, and option -a shows both local and remote branches.
+
+```bash
+git branch -r
+```
+
+Change branch:
+
+```bash
+git switch otherbranch
+```
+
+or:
+
+```bash
+git checkout otherbranch
+```
+
+Create new branch:
+
+```bash
+git switch -c newbranch
+```
+
+Remember: git clone only brings one branch
+
+
 ### Stash
 
 Puts unstaged changes aside, for example before switching branches
