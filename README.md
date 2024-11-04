@@ -28,7 +28,7 @@ Rewinds back 3 commits, discarding changes
 git reset --hard HEAD~3
 ```
 
-git reset deletes commits, there is also a way to reverse commits by making new commits that cancel changes.
+git reset deletes commits, you can also use the revert command to reverse commits by making new commits that cancel changes.
 
 ## Misc
 
