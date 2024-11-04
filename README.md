@@ -14,6 +14,23 @@ I used to have too many opened tabs in my browser, now I'm sharing my links with
 
 ## Git
 
+### Stash
+
+Puts unstaged changes aside, for example before switching branches
+
+```bash
+git stash 
+```
+
+To also include unstaged files:
+
+```bash
+git stash -u 
+```
+
+For more detail: https://www.youtube.com/watch?v=-aPoRU5W8lA
+
+
 ### Reverse commits
 
 Rewinds back 5 commits, keeping changes
@@ -30,7 +47,7 @@ git reset --hard HEAD~3
 
 git reset deletes commits, you can also use the revert command to reverse commits by making new commits that cancel changes.
 
-More details in this video: 
+For more detail: 
 https://www.youtube.com/watch?v=zV-XwShNx3o
 
 
