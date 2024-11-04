@@ -30,6 +30,10 @@ git reset --hard HEAD~3
 
 git reset deletes commits, you can also use the revert command to reverse commits by making new commits that cancel changes.
 
+More details in this video: 
+https://www.youtube.com/watch?v=zV-XwShNx3o
+
+
 ## Misc
 
 Free resources for developers https://free-for.dev/#/
