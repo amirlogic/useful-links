@@ -16,17 +16,19 @@ I used to have too many opened tabs in my browser, now I'm sharing my links with
 
 ### Reverse commits
 
-Go back 5 commits, keeping changes
+Rewinds back 5 commits, keeping changes
 
 ```bash
 git reset HEAD~5
 ```
 
-Go back 3 commits, discarding changes
+Rewinds back 3 commits, discarding changes
 
 ```bash
 git reset --hard HEAD~3
 ```
+
+git reset deletes commits, there is also a way to reverse commits by making new commits that cancel changes.
 
 ## Misc
 
