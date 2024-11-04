@@ -48,6 +48,8 @@ git switch -c newbranch
 
 Remember: git clone only brings one branch
 
+Set upstream: https://www.youtube.com/watch?v=wBc0WcyTtOA
+
 
 ### Stash
 
