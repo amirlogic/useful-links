@@ -67,6 +67,8 @@ git stash -u
 
 For more detail: https://www.youtube.com/watch?v=-aPoRU5W8lA
 
+git merge and rebase: https://www.youtube.com/watch?v=0chZFIZLR_0
+
 
 ### Reverse commits
 
