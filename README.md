@@ -73,8 +73,10 @@ For more detail: https://www.youtube.com/watch?v=-aPoRU5W8lA
 Typically from the main branch:
 
 ```bash
-git merge <other-branch>
+git merge other-branch
 ```
+
+Can also be done using the option ```--no-commit``` to perform check before applying changes
 
 git merge and rebase: https://www.youtube.com/watch?v=0chZFIZLR_0
 
