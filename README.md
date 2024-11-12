@@ -67,6 +67,15 @@ git stash -u
 
 For more detail: https://www.youtube.com/watch?v=-aPoRU5W8lA
 
+
+### Merge
+
+Typically from the main branch:
+
+```bash
+git merge <other-branch>
+```
+
 git merge and rebase: https://www.youtube.com/watch?v=0chZFIZLR_0
 
 
