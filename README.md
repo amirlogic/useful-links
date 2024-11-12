@@ -80,6 +80,8 @@ Can also be done using the option ```--no-commit``` to perform check before appl
 
 git merge and rebase: https://www.youtube.com/watch?v=0chZFIZLR_0
 
+Conflicts: https://www.youtube.com/watch?v=HosPml1qkrg
+
 
 ### Reverse commits
 
