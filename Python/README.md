@@ -55,7 +55,7 @@ Composed:
 dict = { "key1":"val1", "key2":"val2", "key3":"val3" }
 ```
 
-To get a value: ```dict['key1']```
+To get a value: ```dict['key1']``` ⚠️ DO NOT use dict.key it's not a property or a method!
 
 Can also be created using the constructor:
 
