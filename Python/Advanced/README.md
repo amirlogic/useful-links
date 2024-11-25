@@ -32,6 +32,9 @@ f.close()
 ```
 "a" means appending, adds content to an existing file (or create if does not exists)
 
+Use "wb" to write bytes into a file
+
+
 ## BytesIO
 
 ```python
