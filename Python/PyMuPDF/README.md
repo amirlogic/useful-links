@@ -47,6 +47,23 @@ for page in doc: # iterate the document pages
 doc.close()
 ```
 
+### Image extraction
+
+```python
+doc.extract_image(xref)
+```
+
+There are two ways of getting the xref:
+
+```python
+
+images = page.get_images()
+
+for index,img in enumerate(images):
+    imgdata = doc.extract_image(img[0])
+
+```
+
 ### Save page as pixmap
 
 ```python
