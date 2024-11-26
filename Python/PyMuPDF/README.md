@@ -59,7 +59,7 @@ There are two ways for getting the xref:
 
 images = page.get_images()
 
-for index,img in enumerate(images):
+for img in images:
     imgdata = doc.extract_image(img[0])
 
 ```
