@@ -64,6 +64,18 @@ for img in images:
 
 ```
 
+```python
+
+lenXREF = doc.xref_length()
+
+for xref in range(1, lenXREF):
+    
+    if(doc.xref_get_key(xref, "Subtype")[1] == "/Image"):
+
+        imgdata = doc.extract_image(xref)
+
+```
+
 ### Save page as pixmap
 
 ```python
