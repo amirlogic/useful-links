@@ -53,7 +53,7 @@ doc.close()
 doc.extract_image(xref)
 ```
 
-There are two ways of getting the xref:
+There are two ways for getting the xref:
 
 ```python
 
