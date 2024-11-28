@@ -154,3 +154,5 @@ Pip SSL error https://www.youtube.com/watch?v=g9AeWgZJTZA
 
 Image manipulation https://pypi.org/project/pillow/
 
+PDF to Docx: https://pdf2docx.readthedocs.io/en/latest/
+
