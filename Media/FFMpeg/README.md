@@ -112,8 +112,10 @@ ffmpeg -i input.mp4 -filter:v "crop=out_w:out_h:x:y" output.mp4
 
 ## Extract Image
 
+Single image:
+
 ```bash
-ffmpeg -ss 00:00:10 -t 2 -i input.mp4 %04d.png
+ffmpeg -ss 00:00:10 -i input.mp4 -frames:v 1 screenshot.png
 ```
 
 
