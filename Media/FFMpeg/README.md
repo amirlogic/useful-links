@@ -109,6 +109,14 @@ To slow down your video, you have to use a multiplier greater than 1
 ffmpeg -i input.mp4 -filter:v "crop=out_w:out_h:x:y" output.mp4
 ```
 
+
+## Extract Image
+
+```bash
+ffmpeg -ss 00:00:10 -t 2 -i input.mp4 %04d.png
+```
+
+
 ## Image Overlay
 
 ```bash
