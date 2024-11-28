@@ -23,6 +23,10 @@ The importance of this is that other than a few exceptions, you can only manipul
 
 ```-vf``` indicates the usage of a video filter
 
+## Streams
+
+```-map i:[a|v]:n```
+
 
 ## Extract audio from video
 
