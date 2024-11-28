@@ -1,7 +1,15 @@
 # FFMpeg
 
-Command line tool to converts and edits videos
+Command line tool to converts and edits videos.
 
+FFmpeg opens the file, decodes it into memory, then encodes the in-memory packets back and puts them into some container: some output file. The term "codec" is a mix of the words "coder & encoder". Those are the magic parts before and after the "decoded frames".
+
+The decoded frames are uncompressed images in-memory, e.g. the most basic pixel format for video frames is called "rgb24". This just stores red, green, and blue values right after each other in 3x8 bits, or 3x1 byte, which could hold 16m colors.
+
+The importance of this is that other than a few exceptions, you can only manipulate or encode the decoded frames. So when we get to different audio/video filters or transcoding, you'll need the decoded frames for all that. But don't worry, FFmpeg does this automatically for you.
+
+
+## Arguments
 
 ```-i``` input
 
