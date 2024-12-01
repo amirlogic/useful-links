@@ -145,3 +145,8 @@ ffmpeg -i video.mp4 -i overlay.png \
 -c:a copy  → we want to re-use the audio from the source file
 
 output.mp4  is the name of the output file
+
+
+## Links
+
+https://gist.github.com/travelhawk/4537a79c11fa5e308e6645a0b434cf4f
