@@ -151,7 +151,7 @@ https://artifex.com/blog/rag-llm-and-pdf-enhanced-text-extraction
 
 Chunking Levels: https://github.com/FullStackRetrieval-com/RetrievalTutorials/blob/main/tutorials/LevelsOfTextSplitting/5_Levels_Of_Text_Splitting.ipynb
 
-
+https://medium.com/@pymupdf/creating-a-rag-chatbot-with-chatgpt-and-pymupdf-f6c30907ae27
 
 
 
