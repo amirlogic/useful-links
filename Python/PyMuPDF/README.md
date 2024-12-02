@@ -153,6 +153,6 @@ Chunking Levels: https://github.com/FullStackRetrieval-com/RetrievalTutorials/bl
 
 https://medium.com/@pymupdf/creating-a-rag-chatbot-with-chatgpt-and-pymupdf-f6c30907ae27
 
-
+https://artifex.com/blog/rag-llm-and-pdf-conversion-to-markdown-text-with-pymupdf
 
 
