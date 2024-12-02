@@ -131,9 +131,17 @@ Data can also be converted to Pandas Dataframe or Excel file
 
 
 
-## String Methods
+## Tutorials
 
 
+### Images
+
+https://artifex.com/blog/pymupdf-explored-image-handling-in-pdf
+
+
+### RAG - LLM
+
+https://artifex.com/blog/rag-llm-and-pdf-enhanced-text-extraction
 
 
 
