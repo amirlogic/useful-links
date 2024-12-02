@@ -136,10 +136,16 @@ Data can also be converted to Pandas Dataframe or Excel file
 
 ### Images
 
+https://pymupdf.readthedocs.io/en/latest/recipes-images.html
+
 https://artifex.com/blog/pymupdf-explored-image-handling-in-pdf
 
 
+
+
 ### RAG - LLM
+
+https://artifex.com/blog/building-a-multimodal-llm-application-with-pymupdf4llm
 
 https://artifex.com/blog/rag-llm-and-pdf-enhanced-text-extraction
 
