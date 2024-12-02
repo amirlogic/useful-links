@@ -155,4 +155,4 @@ https://medium.com/@pymupdf/creating-a-rag-chatbot-with-chatgpt-and-pymupdf-f6c3
 
 https://artifex.com/blog/rag-llm-and-pdf-conversion-to-markdown-text-with-pymupdf
 
-
+https://www.youtube.com/watch?v=8OJC21T2SL4
