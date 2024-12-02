@@ -149,7 +149,7 @@ https://artifex.com/blog/building-a-multimodal-llm-application-with-pymupdf4llm
 
 https://artifex.com/blog/rag-llm-and-pdf-enhanced-text-extraction
 
-
+Chunking Levels: https://github.com/FullStackRetrieval-com/RetrievalTutorials/blob/main/tutorials/LevelsOfTextSplitting/5_Levels_Of_Text_Splitting.ipynb
 
 
 
