@@ -105,6 +105,13 @@ with open('eggs.csv', newline='') as csvfile:
         print(', '.join(row))
 ```
 
+## GUI
+
+https://wxpython.org/
+
+
+
+
 ## Video
 
 Image processing https://www.youtube.com/watch?v=oyqNdcbKhew
