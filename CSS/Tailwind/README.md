@@ -1,13 +1,19 @@
-# CSS
+# Tailwind CSS
 
-CSS tricks https://css-tricks.com/
+## Standalone executable
 
+Works even with HTML and CSS files only
 
-## Tailwind
+```input.css```
 
-Tailwind CSS Templates https://tailgrids.com/
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
 
-ShadCN UI: UI Component Library in React & Next.js https://www.youtube.com/watch?v=v0_AT8zaLo8
+```tailwind.config.js```
+
 
 
 ## Animations
