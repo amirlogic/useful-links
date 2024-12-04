@@ -14,8 +14,17 @@ Works even with HTML and CSS files only
 
 ```tailwind.config.js```
 
+```javascript
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./*.html"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
 
 
-## Animations
 
-GSAP https://greensock.com/gsap/
+
