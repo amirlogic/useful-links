@@ -36,6 +36,12 @@ page = doc[pno]
 
 ```
 
+New page:
+
+```python
+doc.new_page(pno=-1, width=595, height=842)
+```
+
 
 ### Text Extraction
 
@@ -87,6 +93,13 @@ pix.save("page-%i.png" % page.number)
 
 print("pixmap saved")
 ```
+
+### Insert Text
+
+```python
+page.insert_htmlbox(Rect, textcontent)
+```
+
 
 ### Insert Image
 
