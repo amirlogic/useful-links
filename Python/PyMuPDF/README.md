@@ -43,6 +43,12 @@ doc.new_page(pno=-1, width=595, height=842)
 ```
 
 
+
+```python
+width, height = pymupdf.paper_size("a4")
+```
+
+
 ### Text Extraction
 
 ```python
