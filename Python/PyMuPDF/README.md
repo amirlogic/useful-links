@@ -106,6 +106,8 @@ print("pixmap saved")
 page.insert_htmlbox(Rect, textcontent)
 ```
 
+Supports HTML4 and CSS2
+
 
 ### Insert Image
 
