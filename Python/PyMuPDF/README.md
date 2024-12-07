@@ -154,6 +154,9 @@ Data can also be converted to Pandas Dataframe or Excel file
 
 ## Tutorials
 
+https://github.com/pymupdf/PyMuPDF-Utilities
+
+
 ## Text
 
 https://medium.com/@pymupdf/mastering-pdf-text-with-pymupdfs-insert-htmlbox-what-you-need-to-know-705a044f07f3
