@@ -40,7 +40,9 @@ Export ```pip freeze > requirements.txt```
 
 ## Datatypes (most used)
 
-Simple: String, Float, Integer, Boolean
+Simple: String, Float, Integer, 
+
+Boolean: ```True``` / ```False```
 
 Composed:
 
