@@ -119,6 +119,8 @@ Remove item: ```list.remove("list_element")```
 
 Clear list: ```list.clear()```
 
+Extend: ```list.extend(iterable)```
+
 
 ## Loops
 
