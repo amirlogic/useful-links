@@ -42,7 +42,7 @@ Export ```pip freeze > requirements.txt```
 
 Simple: String, Float, Integer, 
 
-Boolean: ```True``` / ```False```
+Boolean: ```True``` / ```False``` (First letter uppercase)
 
 Composed:
 
@@ -90,6 +90,11 @@ To integer: ```int()```
 To float: ```float()```
 
 To string: ```str()```
+
+
+## Operators 
+
+Logical ```and``` / ```or``` /  ```not```
 
 
 ## String Methods
