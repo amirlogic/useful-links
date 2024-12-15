@@ -11,13 +11,13 @@ Requires Rust and NodeJs
 Install Tauri cli
 
 
-## Electron Forge is the new way to go
+## Dev
 
 ```bash
-npm init electron-app@latest my-app --template=webpack
+pnpm taur dev
 ```
 
-olean: ```app.isPackaged``` or ```electron-is-dev```
+
 
 
 
