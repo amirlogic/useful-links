@@ -155,7 +155,7 @@ Data can also be converted to Pandas Dataframe or Excel file
 Always divide by 255
 
 ```
-color=((208/255,134/255,134/255))
+color=(208/255,134/255,134/255)
 ```
 
 
