@@ -150,6 +150,14 @@ doc.close()
 Data can also be converted to Pandas Dataframe or Excel file
 
 
+## Colors
+
+Always divide by 255
+
+```
+color=((208/255,134/255,134/255))
+```
+
 
 
 ## Tutorials
