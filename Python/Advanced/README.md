@@ -65,6 +65,21 @@ print(file_bytes.getvalue())
 
 ```
 
+## JSON
+
+Parse
+
+```python
+y = json.loads(x)
+```
+
+Stringify
+
+```python
+y = json.dumps(x)
+```
+
+
 ## Generate temporary files and directories
 
 ```python
