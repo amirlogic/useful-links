@@ -165,3 +165,5 @@ Image manipulation https://pypi.org/project/pillow/
 
 PDF to Docx: https://pdf2docx.readthedocs.io/en/latest/
 
+SVG: https://github.com/deeplook/svglib
+
