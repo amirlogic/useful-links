@@ -1,4 +1,4 @@
-# Tauri
+# Tauri v2
 
 Rust backend (need to work with Rust environment)
 
@@ -17,6 +17,12 @@ Install Tauri cli
 pnpm taur dev
 ```
 
+## Vanilla JS
+
+```javascript
+const { invoke } = window.__TAURI__.core;
+const { event, window: tauriWindow, path } = window.__TAURI__;
+```
 
 
 
