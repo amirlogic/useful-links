@@ -33,6 +33,19 @@ const { invoke } = window.__TAURI__.core;
 const { event, window: tauriWindow, path } = window.__TAURI__;
 ```
 
+
+## Rust
+
+
+### Plugins
+
+Have to be installed:
+
+```pnpm tauri add fs```
+
+Adds an .plugin entry in fn main()
+
+
 ## Building
 
 Executables location: ```src-tauri\target\release```
