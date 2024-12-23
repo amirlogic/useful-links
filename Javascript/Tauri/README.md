@@ -35,6 +35,6 @@ const { event, window: tauriWindow, path } = window.__TAURI__;
 
 ## Building
 
-
+Executables location: ```src-tauri\target\release```
 
 
