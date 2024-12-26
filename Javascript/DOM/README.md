@@ -28,6 +28,7 @@ Sets or returns the text content of the specified node.
 element.textContent  # no parethesis
 ```
 
+
 ## append
 
 Allows you to also append string objects, whereas Node.appendChild() only accepts Node objects.
@@ -35,3 +36,15 @@ Allows you to also append string objects, whereas Node.appendChild() only accept
 ```javascript
 append(param1, param2, /* …, */ paramN)
 ```
+
+
+## currentTarget
+
+The element that triggered the event listener
+
+```e.currentTarget```
+
+
+## Data attributes
+
+data-name: ```el.dataset.name```
