@@ -11,6 +11,8 @@ Nano ID: unique string ID generator for JavaScript https://www.npmjs.com/package
 
 Date-fns (Lodash for Date): https://www.npmjs.com/package/date-fns
 
+PDF.js https://mozilla.github.io/pdf.js/
+
 
 ## Rate Limit
 
