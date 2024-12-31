@@ -52,6 +52,13 @@ Adds an .plugin entry in fn main()
 pnpm tauri build
 ```
 
+## Methods
+
+### convertFileSrc
+
+Convert a device file path to an URL that can be loaded by the webview.
+
+
 Executables location: ```src-tauri\target\release```
 
 
