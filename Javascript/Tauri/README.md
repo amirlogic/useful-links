@@ -46,18 +46,18 @@ Have to be installed:
 Adds an .plugin entry in fn main()
 
 
-## Building
-
-```bash
-pnpm tauri build
-```
-
 ## Methods
 
 ### convertFileSrc
 
 Convert a device file path to an URL that can be loaded by the webview.
 
+
+## Building
+
+```bash
+pnpm tauri build
+```
 
 Executables location: ```src-tauri\target\release```
 
