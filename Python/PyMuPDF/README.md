@@ -158,6 +158,13 @@ Always divide by 255
 color=(208/255,134/255,134/255)
 ```
 
+Or use pdfcolor:
+
+```
+pymupdf.pdfcolor["blue"]
+```
+
+
 ## Rectangles
 
 In PDF /Rect [x0 y0 x1 y1] the pair (x0, y0) specifies the bottom-left point of the rectangle – in contrast to MuPDF’s system, where (x0, y0) specify top-left.
