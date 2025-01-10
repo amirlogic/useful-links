@@ -37,6 +37,8 @@ Use "wb" to write bytes into a file
 
 ## Pathlib
 
+https://www.youtube.com/watch?v=UcKkmwaRbsQ
+
 https://www.youtube.com/watch?v=yxa-DJuuTBI
 
 
