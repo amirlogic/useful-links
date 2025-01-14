@@ -77,7 +77,7 @@ Can also be created using the constructor:
 
 ### Range: 
 
-```range(10)```
+```range(10)``` Starts from 0, stops before a specified number.
 
 
 To get a variable type: ```type(var)```
