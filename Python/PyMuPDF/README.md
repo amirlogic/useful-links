@@ -150,6 +150,26 @@ doc.close()
 Data can also be converted to Pandas Dataframe or Excel file
 
 
+## Widgets (forms)
+
+```widget.field_type_string``` 
+
+0: Bad type?
+
+1: Button
+
+2: Checkbox
+
+3: Select
+
+4: ? 
+
+5: ?
+
+6: Sign?
+
+
+
 ## Colors
 
 Always divide by 255
