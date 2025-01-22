@@ -37,6 +37,16 @@ Use "wb" to write bytes into a file
 
 ## Pathlib
 
+### List all files:
+
+```python
+mydir = pathlib.Path('/some/path')
+
+for item in mydir.iterdir():
+    if(item.is_file()):
+        print(item)
+```
+
 https://www.youtube.com/watch?v=UcKkmwaRbsQ
 
 https://www.youtube.com/watch?v=yxa-DJuuTBI
