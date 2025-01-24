@@ -15,12 +15,15 @@ For example, you might split a document into chunks of 500 tokens each, regardle
 
 To mitigate this, an overlap feature can be introduced, where a certain number of tokens or characters from the end of one chunk is repeated at the start of the next. This helps preserve context across chunks and prevents loss of meaning at the boundaries. 
 
-Advantages
+**Advantages**
+
 Simplicity: Easy to implement and understand. 
 Efficiency: Fast processing, especially for large datasets. 
 Consistency: Uniform chunk sizes across documents. 
 Low computational requirements: Doesn't need complex algorithms or models. 
-Disadvantages
+
+**Disadvantages**
+
 Context fragmentation: May split sentences or logical units of information. 
 Inflexibility: Doesn't account for varying content density or structure. 
 Potential information loss: Important context might be split across chunks. 
@@ -37,12 +40,15 @@ The method recursively splits text until the chunks meet a specified size, prese
 
 For example, in a Python code document, it may first try splitting by class definitions, then function definitions, and finally by line breaks. This ensures that chunks are as meaningful as possible. 
 
-Advantages 
+**Advantages **
+
 Meaningful Chunks: Preserves semantic and structural integrity by splitting at logical points like paragraphs or sections. 
 Flexibility: Adapts to various types of content by using multiple separators, making it useful for both text and code. 
 Fine-Grained Control: Allows precise control over chunk size and overlap to fit specific needs without losing important context. 
 Handles Complex Content: Particularly useful for structured or hierarchical content like technical documents or programming code. 
-Disadvantages 
+
+**Disadvantages **
+
 Increased Complexity: Requires a more complex setup compared to fixed-size chunking. 
 Higher Computational Overhead: Recursive calls and multiple separator checks can slow down processing for large texts. 
 Dependence on Separators: If the text lacks clear separators, it may not split effectively, leading to larger or uneven chunks. 
@@ -55,11 +61,14 @@ Best suited for tasks that require processing large, detailed texts, such as leg
 
 For instance, a legal document might be chunked by individual charges, with each charge treated as a chunk. This method maintains the document's structural integrity and ensures that no important legal context is lost. 
 
-Advantages
+**Advantages**
+
 Full Context Preservation: Retains the entire document’s flow and meaning without cutting through critical sections. 
 Ideal for Structured Texts: Works well for highly structured documents like legal contracts or medical reports. 
 Simplicity: Straightforward to implement without complex chunking rules. 
-Disadvantages
+
+**Disadvantages**
+
 Scalability Issues: Not ideal for large documents that exceed token or memory limits, as they may be too big to process in a single chunk. 
 Reduced Efficiency: Handling large documents as a whole can lead to inefficiencies and higher resource consumption. 
 Limited Specificity: Lacks granularity, making it difficult to extract or retrieve specific sections or details within the document. 
