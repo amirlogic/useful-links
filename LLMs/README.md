@@ -40,14 +40,14 @@ The method recursively splits text until the chunks meet a specified size, prese
 
 For example, in a Python code document, it may first try splitting by class definitions, then function definitions, and finally by line breaks. This ensures that chunks are as meaningful as possible. 
 
-**Advantages **
+**Advantages**
 
 Meaningful Chunks: Preserves semantic and structural integrity by splitting at logical points like paragraphs or sections. 
 Flexibility: Adapts to various types of content by using multiple separators, making it useful for both text and code. 
 Fine-Grained Control: Allows precise control over chunk size and overlap to fit specific needs without losing important context. 
 Handles Complex Content: Particularly useful for structured or hierarchical content like technical documents or programming code. 
 
-**Disadvantages **
+**Disadvantages**
 
 Increased Complexity: Requires a more complex setup compared to fixed-size chunking. 
 Higher Computational Overhead: Recursive calls and multiple separator checks can slow down processing for large texts. 
