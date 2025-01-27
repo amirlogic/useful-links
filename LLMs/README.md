@@ -78,11 +78,14 @@ Semantic chunking breaks text into chunks based on meaning rather than fixed siz
 
 For example, the chunker splits the text when it detects a significant change in meaning between two sentences based on their embeddings. Thresholds can be set to control when this break happens, ensuring each chunk is logically connected. 
 
-Advantages
+**Advantages**
+
 Preserves meaning: Chunks are created around logical content breaks, ensuring coherent units of information. 
 Adaptable to diverse content: Works well with documents of varying topics or sections, such as research papers or technical documents. 
 Improves retrieval accuracy: Chunks maintain their semantic integrity, making responses to queries more relevant. 
-Disadvantages
+
+**Disadvantages**
+
 Complex setup: Requires advanced techniques to measure semantic shifts between sentences. 
 Higher computational cost: Analyzing meaning differences can be resource-intensive, especially for longer documents. 
 Threshold tuning: The quality of chunking depends on setting the right threshold, which may vary for different types of content or domains.  
@@ -92,7 +95,7 @@ Token-based chunking splits text based on a predefined number of tokens (words o
 
 For example, a document might be divided into chunks of 300 tokens each, ensuring that each chunk is within a model’s token limit for processing, even if it cuts across sentences or paragraphs.
 
-Advantages
+**Advantages**
 Optimized for language models: Ensures chunks stay within the token limits of models like GPT, improving processing efficiency.
 Precise control over chunk size: Allows for fine-tuning the number of tokens per chunk to match model requirements.
 Consistency across content: Divides text into consistent token counts, making processing easier for large datasets.
@@ -100,7 +103,7 @@ Partner with Us for Success
 Experience seamless collaboration and exceptional results.
 
 Let’s Connect
-Disadvantages
+**Disadvantages**
 Context fragmentation: May break sentences or paragraphs mid-way, leading to incomplete information in chunks.
 Ignores semantic structure: Focuses only on token count, potentially losing important context or meaning.
 Limited flexibility: This doesn't account for varying content density or the natural breaks in text, which may reduce chunk coherence.
@@ -110,11 +113,14 @@ Sentence-based chunking divides text into full sentences, ensuring that each chu
 
 For example, a document might be broken into chunks where each contains 5 to 10 sentences, maintaining the semantic integrity of each chunk while keeping the size manageable.
 
-Advantages
+**Advantages**
+
 Preserves context: Each chunk contains full sentences, ensuring no loss of meaning or disruption in the flow of information.
 Better readability: Chunks are more coherent and readable, making it easier for models or users to process them.
 Natural division: The text is split at logical points, preventing chunks from cutting through ideas mid-sentence.
-Disadvantages
+
+**Disadvantages**
+
 Variable chunk sizes: Depending on sentence length, chunks can vary significantly in size, making it harder to control chunk consistency.
 Inefficient for long sentences: In texts with very long sentences, chunks may exceed token limits or contain too much information in a single chunk.
 Less control over chunk size: Chunking based on sentences may result in uneven chunks, which could affect performance in models with strict size limits.
@@ -124,11 +130,14 @@ Agentic chunking breaks down a text into smaller, semantically meaningful sectio
 
 For example, if a document describes a process, agentic chunking would split the text into task-relevant parts like "step 1: preparation," "step 2: execution," and "step 3: conclusion," with each part mapped to a specific agent action or goal.
 
-Advantages
+**Advantages**
+
 Task-Oriented Efficiency: Helps optimize the AI’s performance by tailoring chunks to specific tasks or actions, reducing confusion and improving decision-making.
 Better Focus on Relevant Data: The AI can hone in on exactly what it needs for each task, leading to more accurate responses or analysis.
 Flexibility: Offers adaptability to a wide range of use cases, such as answering questions, summarizing, or performing tasks based on predefined roles.
-Disadvantages
+
+**Disadvantages**
+
 Complex Setup: Requires clear definitions of agent roles and task-specific chunking rules, which may involve significant setup time and effort.
 Over-Specialization: Risk of oversimplifying or fragmenting complex documents into overly specific tasks, potentially missing broader patterns or nuances.
 May Lose Global Context: Since each chunk is optimized for a specific task, there’s a risk of losing the overall context of the document, which could affect the quality of holistic tasks like summarization.
