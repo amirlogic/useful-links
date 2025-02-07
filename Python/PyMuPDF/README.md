@@ -194,6 +194,8 @@ In PDF /Rect [x0 y0 x1 y1] the pair (x0, y0) specifies the bottom-left point of 
 
 https://github.com/pymupdf/PyMuPDF-Utilities
 
+https://medium.com/@pymupdf/mastering-metadata-and-table-of-contents-manipulation-with-pymupdf-b9099b64b17b
+
 
 ## Text
 
