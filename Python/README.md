@@ -142,6 +142,8 @@ Keywords:
 
 ```break```     Stop the loop
 
+```pass```      In case the loop is empty, to avoid errors
+
 
 ## Functions
 
