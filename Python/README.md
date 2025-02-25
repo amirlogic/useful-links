@@ -136,6 +136,13 @@ for index, value in enumerate(names):
     print(f'{index}: {value}')
 ```
 
+Keywords:
+
+```continue```  Stop the current iteration of the loop, and continue with the next
+
+```break```     Stop the loop
+
+
 ## Functions
 
 ```python
