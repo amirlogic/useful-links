@@ -152,22 +152,16 @@ Data can also be converted to Pandas Dataframe or Excel file
 
 ## Widgets (forms)
 
-```widget.field_type_string``` 
+```widget.field_type``` 
 
-0: Bad type?
-
-1: Button
-
-2: Checkbox
-
-3: Select
-
-4: ? 
-
-5: ?
-
-6: Sign?
-
+PDF_WIDGET_TYPE_UNKNOWN 0
+PDF_WIDGET_TYPE_BUTTON 1
+PDF_WIDGET_TYPE_CHECKBOX 2
+PDF_WIDGET_TYPE_COMBOBOX 3
+PDF_WIDGET_TYPE_LISTBOX 4
+PDF_WIDGET_TYPE_RADIOBUTTON 5
+PDF_WIDGET_TYPE_SIGNATURE 6
+PDF_WIDGET_TYPE_TEXT 7
 
 
 ## Colors
