@@ -52,6 +52,11 @@ https://www.youtube.com/watch?v=UcKkmwaRbsQ
 https://www.youtube.com/watch?v=yxa-DJuuTBI
 
 
+### Current dir
+
+`Path.cwd()`
+
+
 ## Base64
 
 ```python
