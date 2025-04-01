@@ -40,6 +40,7 @@ Use "wb" to write bytes into a file
 ### List all files:
 
 ```python
+
 mydir = pathlib.Path('/some/path')
 
 for item in mydir.iterdir():
@@ -52,9 +53,15 @@ https://www.youtube.com/watch?v=UcKkmwaRbsQ
 https://www.youtube.com/watch?v=yxa-DJuuTBI
 
 
-### Current dir
+### More
 
-`Path.cwd()`
+
+Current dir: `Path.cwd()`
+
+Home dir: `Path.home()`
+
+Join: `Path("/") / "path" / "to" / "some" / "file.txt"`
+
 
 
 ## Base64
