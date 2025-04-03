@@ -60,8 +60,16 @@ Current dir: `Path.cwd()`
 
 Home dir: `Path.home()`
 
+Parent: `Path.parent`
+
 Join: `Path("/") / "path" / "to" / "some" / "file.txt"`
 
+
+### Extract
+
+Extension: `Path.suffix` (includes dot)
+
+Filename without ext.: `Path.stem`
 
 
 ## Base64
