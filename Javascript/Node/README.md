@@ -109,3 +109,21 @@ Currently possible values are:
 
 'win32'
 
+
+## Executing Shell Commands
+
+
+`child_process.exec()`
+
+Result available in callback
+
+Stores whole output
+
+
+`child_process.spawn()`
+
+Result available through event listener
+
+Streams output
+
+
