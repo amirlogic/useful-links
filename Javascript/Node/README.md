@@ -88,3 +88,24 @@ test('synchronous passing test', async (t) => {
 })
 
 ```
+
+## process
+
+`process.platform` 
+
+Currently possible values are:
+
+'aix'
+
+'darwin'
+
+'freebsd'
+
+'linux'
+
+'openbsd'
+
+'sunos'
+
+'win32'
+
