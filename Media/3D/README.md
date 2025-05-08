@@ -14,6 +14,8 @@ Viewport shading: Wireframe / Solid / Material / Rendered
 
 **UV Editor:**
 
+An UV map describes how a 2D image should be mapped onto a 3D object.
+
 **Smart UV:** First use A to select all, then 
 
 
