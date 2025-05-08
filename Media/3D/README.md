@@ -10,9 +10,11 @@ Viewport shading: Wireframe / Solid / Material / Rendered
 
 ### Howto
 
-Apply texture: Material > Surface > Base color
+**Apply texture:** Material > Surface > Base color
 
+**UV Editor:**
 
+**Smart UV:** First use A to select all, then 
 
 
 ### Links
