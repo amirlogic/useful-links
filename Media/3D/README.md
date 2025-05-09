@@ -48,7 +48,7 @@ Toggle Camera View: Switch between user and camera view (film camera icon, top r
 
 ### Make the Camera Point to an Object
 
-Add a Track to Contraint
+Select Camera > Object Contraint Properties > Add a Track to Contraint
 
 
 
