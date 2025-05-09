@@ -52,6 +52,7 @@ An UV map describes how a 2D image should be mapped onto a 3D object.
 
 G: Grab (move)
 
+I: Insert keyframe
 
 
 ### Links
