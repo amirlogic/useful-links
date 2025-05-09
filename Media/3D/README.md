@@ -39,6 +39,12 @@ Viewport shading: Wireframe / Solid / Material / Rendered
 Toggle Camera View: Switch between user and camera view (film camera icon, top right corner)
 
 
+### Make the Camera Point to an Object
+
+Add a Track to Contraint
+
+
+
 
 ### Texture
 
