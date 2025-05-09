@@ -36,6 +36,9 @@ Used for scientific applications
 
 Viewport shading: Wireframe / Solid / Material / Rendered
 
+Toggle Camera View: Switch between user and camera view (film camera icon, top right corner)
+
+
 
 ### Texture
 
