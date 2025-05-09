@@ -1,5 +1,34 @@
 # 3D
 
+## Formats
+
+3D mesh formats Vs CAD formats
+
+
+### GLTF
+
+Increasingly recognized as the best format.
+
+
+### OBJ
+
+Most common, separate MTL file for texture information.
+
+
+### FDX
+
+Proprietary, controlled by Autodesk
+
+
+### STL
+
+Used for 3D printing, no texture information
+
+
+### PLY
+
+Used for scientific applications 
+
 
 ## Blender
 
