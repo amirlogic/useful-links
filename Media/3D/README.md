@@ -43,7 +43,7 @@ https://rendercrate.com/
 
 Viewport shading: Wireframe / Solid / Material / Rendered
 
-Toggle Camera View: Switch between user and camera view (film camera icon, top right corner)
+Toggle Camera View: Switch between user and camera view (film camera icon 🎥, top right corner)
 
 
 ### Make the Camera Point to an Object
@@ -61,7 +61,7 @@ Select Camera > Object Contraint Properties > Add a Track to Contraint
 
 An UV map describes how a 2D image should be mapped onto a 3D object.
 
-**Smart UV:** First use A to select all, then 
+**Smart UV:** First use A to select all, then choose Smart UV
 
 
 ### Keys
