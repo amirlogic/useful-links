@@ -71,6 +71,11 @@ G: Grab (move)
 I: Insert keyframe
 
 
+### Scripting
+
+Introduction https://www.youtube.com/watch?v=aGsbOGK9Ia8
+
+
 ### Links
 
 Beginner tutorial: https://www.youtube.com/watch?v=B0J27sf9N1Y
