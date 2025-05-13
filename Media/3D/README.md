@@ -61,6 +61,8 @@ Select Camera > Object Contraint Properties > Add a Track to Contraint
 
 An UV map describes how a 2D image should be mapped onto a 3D object.
 
+First: Switch to Edit Mode.
+
 **Smart UV:** First use A to select all, then choose Smart UV
 
 
