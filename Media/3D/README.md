@@ -82,3 +82,7 @@ Introduction https://www.youtube.com/watch?v=aGsbOGK9Ia8
 
 Beginner tutorial: https://www.youtube.com/watch?v=B0J27sf9N1Y
 
+
+Texture: 
+https://youtu.be/uHCJoNEWjXo?si=gnLVqi0Xs4dfSpa3
+
