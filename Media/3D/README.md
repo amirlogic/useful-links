@@ -37,6 +37,11 @@ https://nasa3d.arc.nasa.gov/models
 https://rendercrate.com/
 
 
+## Textures
+
+https://freepbr.com/
+
+
 ## Blender
 
 ### Controls
@@ -65,6 +70,8 @@ First: Switch to Edit Mode.
 
 **Smart UV:** First use A to select all, then choose Smart UV
 
+**Remember:** Ideal textures are not flat images, PBR are.
+
 
 ### Keys
 
@@ -85,4 +92,6 @@ Beginner tutorial: https://www.youtube.com/watch?v=B0J27sf9N1Y
 
 Texture: 
 https://youtu.be/uHCJoNEWjXo?si=gnLVqi0Xs4dfSpa3
+
+
 
