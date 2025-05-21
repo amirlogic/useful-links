@@ -7,5 +7,7 @@ VSCode
 Windsurf
 
 
-## RAG
+## Links
+
+List of MCP servers: https://github.com/modelcontextprotocol/servers
 
