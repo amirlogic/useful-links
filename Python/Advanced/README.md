@@ -157,6 +157,11 @@ with open('eggs.csv', newline='') as csvfile:
         print(', '.join(row))
 ```
 
+## Pydantic
+
+Introduction: https://www.youtube.com/watch?v=502XOB0u8OY
+
+
 ## GUI
 
 https://wxpython.org/
