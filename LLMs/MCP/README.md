@@ -11,3 +11,5 @@ Windsurf
 
 List of MCP servers: https://github.com/modelcontextprotocol/servers
 
+VSCode config: https://www.youtube.com/watch?v=iS25RFups4A
+
