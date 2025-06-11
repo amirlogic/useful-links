@@ -9,6 +9,8 @@ Free LLM APIs: https://github.com/cheahjs/free-llm-api-resources
 
 ### Frontends
 
+https://github.com/open-webui/open-webui
+
 https://github.com/ollama-ui/ollama-ui
 
 https://github.com/n4ze3m/page-assist
