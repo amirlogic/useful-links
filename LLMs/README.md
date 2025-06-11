@@ -5,6 +5,17 @@ List of Open Source LLMs https://github.com/eugeneyan/open-llms
 Free LLM APIs: https://github.com/cheahjs/free-llm-api-resources
 
 
+## Ollama
+
+### Frontends
+
+https://github.com/ollama-ui/ollama-ui
+
+https://github.com/n4ze3m/page-assist
+
+
+
+
 ## RAG
 
 7 Types of Chunking Strategies in RAG
