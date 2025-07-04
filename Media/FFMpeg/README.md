@@ -149,4 +149,6 @@ output.mp4  is the name of the output file
 
 ## Links
 
+https://creatomate.com/blog/how-to-change-the-resolution-of-a-video-using-ffmpeg
+
 https://gist.github.com/travelhawk/4537a79c11fa5e308e6645a0b434cf4f
