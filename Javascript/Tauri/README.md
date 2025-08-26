@@ -62,3 +62,10 @@ pnpm tauri build
 Executables location: ```src-tauri\target\release```
 
 
+## Links
+
+https://www.youtube.com/watch?v=Azcw1-leCkQ
+
+https://github.com/infinilabs/coco-app/tree/main
+
+
