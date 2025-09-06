@@ -6,6 +6,8 @@ String Formatting tutorial https://www.youtube.com/watch?v=ktOOKv6XJ7U
 
 Advanced Python Mastery https://github.com/dabeaz-course/python-mastery.git
 
+Standard packages https://youtu.be/eZ9RqnkJxsk?si=twHruJqrQnW6yrj2
+
 
 ## Virtual Environments
 
