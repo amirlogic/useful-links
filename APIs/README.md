@@ -15,6 +15,13 @@ Discord Bots https://discord.js.org/
 https://www.ipify.org/
 
 
+## Crypto
+
+https://bitquery.io/
+
+https://github.com/ccxt/ccxt
+
+
 ## Whois lookup
 
 
