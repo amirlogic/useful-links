@@ -30,3 +30,4 @@ VSCode config: https://www.youtube.com/watch?v=iS25RFups4A
 
 MCP Host: https://github.com/mark3labs/mcphost
 
+Clients for Ollama: https://github.com/jonigl/mcp-client-for-ollama
