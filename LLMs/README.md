@@ -156,3 +156,8 @@ Flexibility: Offers adaptability to a wide range of use cases, such as answering
 Complex Setup: Requires clear definitions of agent roles and task-specific chunking rules, which may involve significant setup time and effort.
 Over-Specialization: Risk of oversimplifying or fragmenting complex documents into overly specific tasks, potentially missing broader patterns or nuances.
 May Lose Global Context: Since each chunk is optimized for a specific task, there’s a risk of losing the overall context of the document, which could affect the quality of holistic tasks like summarization.
+
+
+### Links
+
+https://github.com/HKUDS/RAG-Anything
