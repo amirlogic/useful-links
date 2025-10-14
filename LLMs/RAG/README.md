@@ -141,3 +141,5 @@ May Lose Global Context: Since each chunk is optimized for a specific task, ther
 ### Links
 
 https://github.com/HKUDS/RAG-Anything
+
+https://github.com/aurelio-labs/semantic-chunkers
