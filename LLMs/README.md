@@ -4,6 +4,8 @@ List of Open Source LLMs https://github.com/eugeneyan/open-llms
 
 Free LLM APIs: https://github.com/cheahjs/free-llm-api-resources
 
+https://github.com/shcherbak-ai/contextgem/
+
 
 ## Ollama
 
