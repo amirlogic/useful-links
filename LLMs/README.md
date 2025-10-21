@@ -6,6 +6,8 @@ Free LLM APIs: https://github.com/cheahjs/free-llm-api-resources
 
 https://github.com/shcherbak-ai/contextgem/
 
+https://github.com/aurelio-labs/semantic-chunkers
+
 
 ## Ollama
 
