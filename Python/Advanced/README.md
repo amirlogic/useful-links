@@ -72,6 +72,25 @@ Extension: `Path.suffix` (includes dot)
 Filename without ext.: `Path.stem`
 
 
+### Write and Read Text:
+
+```python
+p = Path('my_text_file')
+p.write_text('Text file contents')
+p.read_text()
+```
+
+
+### Write bytes:
+
+```python
+p = Path('my_binary_file')
+p.write_bytes(b'Binary file contents')
+p.read_bytes()
+```
+
+
+
 ## Base64
 
 ```python
