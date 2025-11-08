@@ -109,6 +109,8 @@ Split and Join: ```var_name.split("sep")``` and ```"sep".join(iterable)```
 
 Remove whitespaces: ```var_name.strip()``` also ```var_name.lstrip()``` and ```var_name.rstrip()```
 
+The `lstrip()` method removes any leading characters (space is the default leading character to remove)
+
 F-Strings: ```print(f"some text {var_name}")``` (also can do math operations inside)
 
 Search: ```var_name.index()``` and ```var_name.find()``` (find() method returns -1 if the value is not found)
