@@ -37,6 +37,8 @@ Audio Splitter https://mikrotakt.app
 
 ## Misc
 
+LosslessCut https://github.com/mifi/lossless-cut
+
 SVG to JSX https://svg2jsx.com/
 
 RTMP Streaming: https://restream.io/blog/rtmp-streaming/
