@@ -147,6 +147,11 @@ ffmpeg -i video.mp4 -i overlay.png \
 output.mp4  is the name of the output file
 
 
+## Re-encoding
+
+`ffmpeg -i input.mp4 -c:v libx264 -c:a aac output.mp4`
+
+
 ## Links
 
 https://creatomate.com/blog/how-to-change-the-resolution-of-a-video-using-ffmpeg
