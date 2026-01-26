@@ -25,3 +25,5 @@ Consent-O-Matic - Handle (some) coockies banners
 YouTube Ad Auto-skipper - Automatically skips YT ads
 
 https://github.com/gildas-lormeau/SingleFile
+
+GoFullPage - https://chromewebstore.google.com/detail/fdpohaocaechififmbbbbbknoalclacl?utm_source=item-share-cb
