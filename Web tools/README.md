@@ -20,7 +20,7 @@ Online REST & SOAP API Testing Tool https://reqbin.com/
 
 ## Chrome extensions
 
-Consent-O-Matic - Handle (some) coockies banners
+Consent-O-Matic - Handle (some) cookies banners
 
 YouTube Ad Auto-skipper - Automatically skips YT ads
 
