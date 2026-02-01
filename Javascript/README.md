@@ -79,9 +79,9 @@ const encodedData = btoa("Hello, world"); // encode a string
 const decodedData = atob(encodedData); // decode the string
 ```
 
-## --
+## Clone an Object
 
-
+`const obj2 = Object.assign({}, obj1);`
 
 
 ## Misc
