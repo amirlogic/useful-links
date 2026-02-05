@@ -146,3 +146,6 @@ ls.on('close', (code) => {
 ## Native env file support 
 
 `node --env-file=.env app.js`
+
+https://nodejs.org/en/learn/command-line/how-to-read-environment-variables-from-nodejs
+
