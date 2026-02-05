@@ -4,9 +4,9 @@ Two realeases par year: In April and in October
 
 Latest versions: 
 
-20 (LTS)
+24 (LTS)
 
-22 (April 2024)
+25 (2025)
 
 
 ## Experimental Features (v22)
@@ -142,3 +142,7 @@ ls.on('close', (code) => {
   console.log(`child process exited with code ${code}`);
 });
 ```
+
+## Native env file support 
+
+`node --env-file=.env app.js`
