@@ -13,6 +13,8 @@ Date-fns (Lodash for Date): https://www.npmjs.com/package/date-fns
 
 PDF.js https://mozilla.github.io/pdf.js/
 
+Voca String library https://vocajs.pages.dev/
+
 
 ## Rate Limit
 
