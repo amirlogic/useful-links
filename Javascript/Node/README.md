@@ -149,3 +149,13 @@ ls.on('close', (code) => {
 
 https://nodejs.org/en/learn/command-line/how-to-read-environment-variables-from-nodejs
 
+
+## PM2 Process Manager
+
+Keeps node processes running after uncaught error. Must be installed globally.
+
+`pm2 start myapp.js --name myapp --node-agrs="--env-file=.env"`
+
+Show stdout and stderr: `pm2 log`
+
+Check license in case of non-personal use
