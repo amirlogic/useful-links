@@ -50,7 +50,7 @@ The element that triggered the event listener
 data-name: ```el.dataset.name```
 
 
-## SelectionStart and end
+## SelectionStart and End
 
 The selectionStart property of the HTMLInputElement interface is a number that represents the beginning index of the selected text. When nothing is selected, then returns the position of the text input cursor (caret) inside of the <input> element.
 
