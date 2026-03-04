@@ -62,24 +62,22 @@ The selectionStart property of the HTMLInputElement interface is a number that r
 ## Tab in textarea
 
 ```javascript
-const textarea = document.querySelector("textarea");
+document.querySelectorAll("textarea").forEach((textarea) => {
+  textarea.addEventListener("keydown", function (e) {
+    if (e.key === "Tab") {
+      e.preventDefault();
 
-textarea.addEventListener("keydown", function (e) {
-  if (e.key === "Tab") {
-    e.preventDefault();
+      const start = this.selectionStart;
+      const end = this.selectionEnd;
 
-    const start = this.selectionStart;
-    const end = this.selectionEnd;
+      this.value =
+        this.value.substring(0, start) +
+        "\t" +
+        this.value.substring(end);
 
-    // Insert tab character
-    this.value =
-      this.value.substring(0, start) +
-      "\t" +
-      this.value.substring(end);
-
-    // Move cursor after the tab
-    this.selectionStart = this.selectionEnd = start + 1;
-  }
+      this.selectionStart = this.selectionEnd = start + 1;
+    }
+  });
 });
 ```
 
