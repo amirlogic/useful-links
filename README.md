@@ -104,6 +104,13 @@ For more detail:
 https://www.youtube.com/watch?v=zV-XwShNx3o
 
 
+### Rebase vs Merge
+
+**Rebase**: Transplant a series of commits onto a different starting point. (better for local private branches)
+
+**Merge**: Creates a merge commit, preserves history (better for shared branches)
+
+
 ### Pull requests
 
 https://www.youtube.com/watch?v=jRLGobWwA3Y
