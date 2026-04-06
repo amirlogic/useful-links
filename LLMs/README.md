@@ -11,6 +11,11 @@ https://github.com/aurelio-labs/semantic-chunkers
 GPT-OSS Resources: https://github.com/milisp/awesome-gpt-oss
 
 
+## More Chatbots
+
+https://chat.z.ai/
+
+
 ## Ollama
 
 ### Frontends
