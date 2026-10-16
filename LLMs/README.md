@@ -16,15 +16,11 @@ GPT-OSS Resources: https://github.com/milisp/awesome-gpt-oss
 https://chat.z.ai/
 
 
-## Ollama
+## Open Source AI
 
-### Frontends
+### Model Repos
 
-https://github.com/open-webui/open-webui
-
-https://github.com/ollama-ui/ollama-ui
-
-https://github.com/n4ze3m/page-assist
+AI Models Torrents: https://pirateface.co
 
 
 
